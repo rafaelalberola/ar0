@@ -23072,4 +23072,12 @@ a:hover .text-hover-primary {
     .nav-work {
         padding: 1rem 0rem;
     }
+    
+    .bg-img-hero .rounded {
+        border-radius: 5px !important;
+    }
+    
+    .dzsparallaxer .rounded {
+        border-radius: 5px !important;
+    }
 }
