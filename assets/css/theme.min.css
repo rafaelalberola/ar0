@@ -6968,8 +6968,16 @@ button.bg-indigo:hover {
     border: .0625rem solid #e7eaf3!important
 }
 
+.border-thick {
+    border: .1rem solid #e0e2e6!important
+}
+
 .border-hero {
     border: .0625rem solid #e3e6ec!important
+}
+
+.border-orange {
+    border: .1rem solid orange!important
 }
 
 .border-top {
