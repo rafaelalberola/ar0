@@ -21621,6 +21621,30 @@ screen and (-ms-high-contrast:none) {
     background-position: center;
 }
 
+.bg-img-hero-dark {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    max-width: 95%;
+    margin: 35px auto 0;
+    border-radius: 25px;
+    background: linear-gradient(-45deg, #E2EBED, #F1E4DC, #E0F2D4, #E4E5E5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .bg-works {
     background-size: cover;
     background-repeat: no-repeat;
