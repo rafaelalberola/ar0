@@ -4888,7 +4888,7 @@ input[type=submit].btn-block {
 .card-body {
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 1.5rem
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
 }
 
 .card-title {
@@ -6973,7 +6973,13 @@ button.bg-indigo:hover {
 }
 
 .border-hero {
-    border: .0625rem solid #e3e6ec!important
+    /*border: .0625rem solid #e3e6ec!important*/
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .border-orange {
@@ -21609,16 +21615,49 @@ screen and (-ms-high-contrast:none) {
     background-repeat: repeat-x
 }
 
+.tools-description {
+    max-width: 70%;
+    margin: auto;
+}
+
 .bg-img-hero {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    max-width: 95%;
-    margin: 35px auto 0;
-    border-radius: 25px;
+    max-width: 100%;
+    /*margin: 35px auto 0;
+    border-radius: 25px;*/
     background-image: url(../img/backgrounds/Cover.jpg) !important;
     background-size: cover;
     background-position: center;
+}
+
+.tools {
+    position: relative;
+}
+
+.tools:before {
+    content: "";
+    background: #0001;
+    width: 85%;
+    margin: auto;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.tools:after {
+    content: "";
+    background: #0001;
+    width: 85%;
+    margin: auto;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .bg-img-hero-dark {
@@ -21649,7 +21688,7 @@ screen and (-ms-high-contrast:none) {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    max-width: 95%;
+    max-width: 100%;
     margin: 35px auto 0;
     border-radius: 25px;
     /*background: #f5f5f5;*/
@@ -21662,6 +21701,10 @@ screen and (-ms-high-contrast:none) {
         max-width: 100%;
         margin: 0;
         border-radius: 0;
+    }
+    
+    .space-top-2 {
+        padding-top: 0rem!important;
     }
 }
 .bg-img-hero-bottom {
@@ -22946,6 +22989,7 @@ a:hover .text-hover-primary {
     margin: 0;
     border-radius: 50%;
     overflow: hidden;
+    border: 1px solid #0001;
 }
 .profile-signature--contact .profile-signature__link {
     display: flex;
@@ -22999,7 +23043,7 @@ a:hover .text-hover-primary {
     /* HERO */
     
     .bg-img-hero {
-        margin-top: 0;
+        margin: auto;
         max-width: 100%;
         border-radius: 0px;
         padding-bottom: 4rem;
@@ -23009,6 +23053,14 @@ a:hover .text-hover-primary {
         max-width: 93%;
         border-radius: 1.3rem;
         padding: 10px;
+    }
+    
+    .row.about-me .col-lg-12 {
+        padding: 0 15px 0 !important;
+    }
+    
+    .row.about-me.align-items-center {
+        margin: auto;
     }
     
     .bg-img-hero>.container>.row {
@@ -23029,8 +23081,12 @@ a:hover .text-hover-primary {
         padding-bottom: 0rem !important;
     }
     
+    .space-top-2 {
+        padding-top: 1rem!important;
+    }
+    
     .recent-works {
-        padding-top: 2.5rem;
+        padding-top: 0rem;
         padding-bottom: 2.5rem;
         max-width: 100%;
         border-radius: 0px;
@@ -23039,11 +23095,6 @@ a:hover .text-hover-primary {
     .samples {
         padding-top: 7.5rem !important;
         padding-bottom: 7.5rem !important;
-    }
-    
-    .about-me {
-        flex-direction: column-reverse;
-        padding-top: 0 !important;
     }
     
     .samples {
