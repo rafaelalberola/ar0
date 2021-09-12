@@ -21707,7 +21707,6 @@ screen and (-ms-high-contrast:none) {
 }
 
 .leyenda-skills {
-    justify-content: space-between;
     background: #fff;
     border-radius: 100px;
     width: fit-content;
@@ -23138,7 +23137,7 @@ a:hover .text-hover-primary {
     }
     
     .row.about-me .col-lg-12 {
-        padding: 0 15px 0 !important;
+        padding: 0 10px 0 !important;
     }
     
     .row.about-me.align-items-center {
@@ -23236,5 +23235,20 @@ a:hover .text-hover-primary {
     
     .dzsparallaxer .rounded {
         border-radius: 5px !important;
+    }
+}
+@media (max-width: 768px) {
+    .row-skills {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .leyenda-skills {
+        width: auto;
+        justify-content: center;
+        margin: auto;
+        font-size: 14px !important;
     }
 }
