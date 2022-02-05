@@ -23096,6 +23096,7 @@ a:hover .text-hover-primary {
     overflow: hidden;
     border: 1px solid white;
 }
+
 .profile-signature--contact .profile-signature__link {
     display: flex;
     flex-direction: row;
@@ -23108,7 +23109,7 @@ a:hover .text-hover-primary {
 
 @media (max-width: 375px) {
     .profile-signature--contact .profile-signature__link {
-        justify-content: center;
+        justify-content: center !important;
     }
 }
 
