@@ -322,7 +322,7 @@
                                     var oneDayTimeStamp = 1000 * 60 * 60 * 24; // Milliseconds in a day
                                     var diff = todayTimeStamp - oneDayTimeStamp;
                                     var yesterdayDate = new Date(diff);
-                                    var yesterdayString = (yesterdayDate.getDate() - 30) + '-' + (yesterdayDate.getMonth() + 1) + '-' + yesterdayDate.getFullYear();
+                                    var yesterdayString = (yesterdayDate.getDate() - 1) + '-' + (yesterdayDate.getMonth() + 0) + '-' + yesterdayDate.getFullYear();
                                     document.getElementById("datetime").innerHTML = yesterdayString.toLocaleString();
                                 </script>
                             </div>
