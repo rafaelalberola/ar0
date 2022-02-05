@@ -630,6 +630,15 @@ mark {
     height: auto
 }
 
+.recent-works .img-fluid {
+    height: auto;
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 0.6rem;
+}
+
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;
@@ -2573,7 +2582,7 @@ textarea.form-control.is-invalid {
     padding: .75rem 1rem;
     font-size: 1rem;
     line-height: 1.6;
-    border-radius: .50rem;
+    border-radius: .35rem;
     transition: all .2s ease-in-out;
     font-family: "Graphik", sans-serif;
 }
@@ -2613,7 +2622,8 @@ fieldset:disabled a.btn {
     color: #fff;
     background-color: #377dff;
     border-color: #377dff;
-    background: linear-gradient(175deg, #37C3FF, #377DFF);
+    /*background: linear-gradient(175deg, #37C3FF, #377DFF);*/
+    background:  #377DFF;
     border: none;
 }
 
@@ -2670,7 +2680,8 @@ fieldset:disabled a.btn {
     color: #fff;
     background-color: #71869d;
     border-color: #71869d;
-    background: linear-gradient(-3deg, #71869d, #a8b8ca);
+    /*background: linear-gradient(-3deg, #71869d, #a8b8ca);*/
+    background: #a8b8ca;
     border: none;
 }
 
@@ -3355,7 +3366,7 @@ fieldset:disabled a.btn {
     padding: .625rem 1.125rem;
     font-size: .875rem;
     line-height: 1.5;
-    border-radius: .45rem
+    border-radius: .35rem
 }
 
 .btn-block {
@@ -4869,7 +4880,7 @@ input[type=submit].btn-block {
     background-color: #fff;
     background-clip: border-box;
     border: .0625rem solid rgba(231, 234, 243, .7);
-    border-radius: 1.35rem
+    border-radius: 0.7rem
 }
 
 .card>hr {
@@ -4902,7 +4913,7 @@ input[type=submit].btn-block {
 .card-body {
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 .card-title {
@@ -21650,6 +21661,19 @@ screen and (-ms-high-contrast:none) {
     position: relative;
 }
 
+.tools .card {
+    border-radius: 1.35rem;
+}
+
+@media (max-width: 768px) {
+    
+     .tools .card img {
+        max-width: 2.8rem;
+        height: 3.5rem;
+    }   
+    
+}
+
 .tools:before {
     content: "";
     background: #0001;
@@ -21688,27 +21712,27 @@ screen and (-ms-high-contrast:none) {
 
 .bg-soft-purple {
     background: #F1EAFF;
-    border-radius: 100px;
+    border-radius: 0.7rem;
 }
 
 .bg-soft-blue {
     background: #E7F0FF;
-    border-radius: 100px;
+    border-radius: 0.7rem;
 }
 
 .bg-soft-green {
     background: #E8F5E4;
-    border-radius: 100px;
+    border-radius: 0.7rem;
 }
 
 .bg-soft-yellow {
     background: #FCF3E9;
-    border-radius: 100px;
+    border-radius: 0.7rem;
 }
 
 .leyenda-skills {
     background: #fff;
-    border-radius: 100px;
+    border-radius: 1rem;
     width: fit-content;
     flex-direction: row;
 }
@@ -23070,7 +23094,7 @@ a:hover .text-hover-primary {
     margin: 0;
     border-radius: 50%;
     overflow: hidden;
-    border: 1px solid #0001;
+    border: 1px solid white;
 }
 .profile-signature--contact .profile-signature__link {
     display: flex;
@@ -23128,11 +23152,12 @@ a:hover .text-hover-primary {
         max-width: 100%;
         border-radius: 0px;
         padding-bottom: 4rem;
-        background-image: url(../img/backgrounds/Cover-mobile.jpg) !important;
+        /*background-image: url(../img/backgrounds/Cover-mobile.jpg) !important;*/
+        background: linear-gradient(15deg, #f5f5f5, #f5efeb, #e2f3f0);
         background-size: cover;
         background-position: center;
         max-width: 93%;
-        border-radius: 1.3rem;
+        border-radius: 0.7rem;
         padding: 10px;
     }
     
@@ -23246,9 +23271,15 @@ a:hover .text-hover-primary {
     }
     
     .leyenda-skills {
+        font-weight: 100;
+        font-family: 'HK Grotesk';
+        color: #5f6d7c;
         width: auto;
         justify-content: center;
-        margin: auto;
-        font-size: 12px !important;
+        margin: 30px auto 30px;
+    }
+    
+    .skills p {
+        font-size: 13.5px;
     }
 }
