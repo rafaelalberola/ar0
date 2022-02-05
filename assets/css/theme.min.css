@@ -16245,13 +16245,13 @@ a.badge-soft-indigo:hover {
 .btn-secondary:not([href]):not([href]):not(:disabled):not(.disabled),
 .btn-secondary:not(label.btn),
 .btn-secondary:not(label.btn):not([href]):not(:disabled):not(.disabled) {
-    background-color: #71869d;
-    border-color: #71869d
+    background-color: #a3afbd;
+    border-color: #a3afbd;
 }
 
 .btn-secondary:hover {
     background-color: #71869d;
-    border-color: #71869d
+    border-color: #71869d;
 }
 
 .btn-success[href]:active,
@@ -23105,6 +23105,13 @@ a:hover .text-hover-primary {
     width: initial;
     margin: 0;
 }
+
+@media (max-width: 375px) {
+    .profile-signature--contact .profile-signature__link {
+        justify-content: center;
+    }
+}
+
 .profile-signature .name {
     margin: 0;
     margin-left: 10px;
@@ -23152,8 +23159,8 @@ a:hover .text-hover-primary {
         max-width: 100%;
         border-radius: 0px;
         padding-bottom: 4rem;
-        /*background-image: url(../img/backgrounds/Cover-mobile.jpg) !important;*/
-        background: linear-gradient(15deg, #f5f5f5, #f5efeb, #e2f3f0);
+        background-image: none;
+        background: linear-gradient(15deg, #f5f5f5, #f5efeb, #e2f3f0) !important;;
         background-size: cover;
         background-position: center;
         max-width: 93%;
