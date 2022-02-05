@@ -23185,8 +23185,8 @@ a:hover .text-hover-primary {
     }
     
     .img-gallery {
-        margin-bottom: 15%;
-        transform: rotate(-22deg) scale(1.1) translate(45px, 15px) !important;
+        margin-bottom: 3rem 0 6rem;
+        transform: rotate(0deg) scale(1.3) translate(40px, 15px) !important;
     }
     
     .process {
