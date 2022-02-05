@@ -23107,12 +23107,6 @@ a:hover .text-hover-primary {
     margin: 0;
 }
 
-@media (max-width: 375px) {
-    .profile-signature--contact .profile-signature__link {
-        justify-content: center !important;
-    }
-}
-
 .profile-signature .name {
     margin: 0;
     margin-left: 10px;
@@ -23289,5 +23283,13 @@ a:hover .text-hover-primary {
     
     .skills p {
         font-size: 13.5px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .profile-signature.profile-signature--contact.mb-4 {
+        display: flex;
+        justify-content: center;
     }
 }
