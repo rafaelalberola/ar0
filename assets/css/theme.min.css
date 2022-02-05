@@ -23288,8 +23288,10 @@ a:hover .text-hover-primary {
 
 
 @media (max-width: 375px) {
-    .profile-signature.profile-signature--contact.mb-4 {
-        display: flex;
-        justify-content: center;
+    
+    .profile-signature {
+        display: flex !important;
+        justify-content: center !important;
     }
+    
 }
