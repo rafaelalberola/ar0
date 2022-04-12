@@ -23463,6 +23463,9 @@ a:hover .text-hover-primary {
 }
 
 @media (max-width:420px) {
+    .overflow-mobile.col-10 .img-fluid:last-of-type {
+        margin-right: 60px !important;
+    }
     .mh-sm-350 {
         max-height: 350px;
     }
@@ -23978,7 +23981,7 @@ img {
 @media (max-width: 420px) {
 
     .modal-body .btn {
-        padding: 10px 15px;
+        padding: 10px 10px;
     }
 
     .modal-body .row .col-texto {
