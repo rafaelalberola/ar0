@@ -23462,7 +23462,16 @@ a:hover .text-hover-primary {
 
 }
 
+.empty-col-sm {
+    min-width: 70px;
+    display: none !important;
+}
+
 @media (max-width:420px) {
+    .empty-col-sm {
+        min-width: 70px;
+        display: block !important;
+    }
     .overflow-mobile.col-10 .img-fluid:last-of-type {
         margin-right: 60px !important;
     }
@@ -23640,7 +23649,7 @@ img {
         justify-content: flex-start !important;
         max-width: 100% !important;
         flex: 100% !important;
-        padding: 0 40px 0 15px;
+        padding: 0 15px;
     }
     .show-sm {
         display: block;
@@ -23981,7 +23990,7 @@ img {
 @media (max-width: 420px) {
 
     .modal-body .btn {
-        padding: 10px 10px;
+        padding: 10px 5px;
     }
 
     .modal-body .row .col-texto {
