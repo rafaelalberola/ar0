@@ -23463,6 +23463,14 @@ a:hover .text-hover-primary {
 }
 
 @media (max-width:420px) {
+    .mh-sm-350 {
+        max-height: 350px;
+    }
+
+    .mh-sm-250 {
+        max-height: 250px;
+    }
+    
 
     .image-work > a > .img-fluid {
         max-width: 100% !important;
@@ -23629,7 +23637,7 @@ img {
         justify-content: flex-start !important;
         max-width: 100% !important;
         flex: 100% !important;
-        padding: 0 15px;
+        padding: 0 40px 0 15px;
     }
     .show-sm {
         display: block;
