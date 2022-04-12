@@ -23525,8 +23525,8 @@ a:hover .text-hover-primary {
     }
 
     .img-gallery {
-        margin: 3rem 0 4rem;
-        transform: rotate(0deg) scale(1.2) translate(30px, 0px) !important;
+        margin: 4rem 0 5rem;
+        transform: rotate(0deg) scale(1.4) translate(45px, 0px) !important;
     }
 }
 
@@ -23819,6 +23819,8 @@ img {
     }
 }
 
+
+
 .scrollable-img-lg {
     max-width: 850px !important;
 }
@@ -23828,6 +23830,10 @@ img {
 }
 
 @media (max-width: 420px) {
+
+    .scrollable-img-xxl {
+        max-width: 1050px !important;
+    }
 
     .arcano-user-journey {
         max-width: 900px !important;
@@ -24048,6 +24054,14 @@ img {
 
 /*Colors Case Study Arcano*/
 
+.case-arcano span.number-team {
+    color: #ffffff;
+}
+
+.case-arcano .modal-body .btn-primary, .case-arcano span.number-team {
+    background: #3059d5;
+}
+
 .case-arcano .overview, .case-arcano .portfolio-img-container, .case-arcano.navbar-toggler {
     background: #f5f9fd;
     color: #191b1d;
@@ -24057,7 +24071,6 @@ img {
     background: linear-gradient(180deg, #eef1f7, #f7fbff);
     border: 1px solid #edf1f6;
 }
-
 
 @media (max-width: 420px) {
     .case-arcano.image-work .img-fluid {
@@ -24077,11 +24090,27 @@ img {
 }
 
 
-/*Colors Case Study Caser*/
+/*Caser*/
+
+.case-caser a {
+    color: #d16626;
+}
+
+.case-caser span.number-team {
+    color: #ffffff;
+}
+
+.case-caser .modal-body .btn-primary, .case-caser span.number-team {
+    background: #b1693d;
+}
 
 .case-caser .overview, .case-caser .portfolio-img-container, .case-caser.navbar-toggler {
     background: #FCF8F6;
     color: #191b1d;
+}
+
+.case-caser .btn-white:hover {
+    color: #B16A3E;
 }
 
 .image-work {

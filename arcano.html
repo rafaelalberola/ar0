@@ -42,6 +42,13 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
 
+        <!-- Header -->
+      <div class="modal-header">
+        <h4 id="addNewAddressModalTitle" class="modal-title">Just a quick tip</h4>
+        
+      </div>
+      <!-- End Header -->
+
         <!-- Body -->
         <div class="modal-body">
             
@@ -49,10 +56,11 @@
             <div class="row">
 
               <div class="col-lg-12 mt-3 mb-4">
-                <p class="wave" style="font-size: 1.7rem;">⌛️</p>
-                <p>Running through many applications?
+                <p class="wave" style="font-size: 2.5rem;">💡</p>
+                <p>
+                  Running through many applications?
                   <br/>Case Studies can be really dense. 
-                  <br/><b>Read the Overview</b> to have a quick idea.</p>
+                  <br/>Read the <b>Overview</b> to have a quick idea.</p>
               </div>
               
             </div>
@@ -61,8 +69,12 @@
 
             <div class="row d-flex justify-content-center">
 
-              <div class="col-lg-12 col-sm-12 pl-2 pr-2 pb-0">
-                <button id="closemodal" href="#overviewSection" type="button" class="btn btn-primary btn-block" href="#worksSection">Got it, thanks!</button>
+              <div class="col-6 pl-2 pr-2 pb-0">
+                <button type="button" class="btn btn-white btn-block" data-dismiss="modal">No, thanks!</button>
+              </div>
+
+              <div class="col-6 pl-2 pr-2 pb-0">
+                <a href="#overviewSection"><button id="closemodal" type="button" class="btn btn-primary btn-block" href="#worksSection">Read now</button></a>
               </div>
             </div>
 
