@@ -8080,8 +8080,8 @@ button.bg-indigo:hover {
 }
 
 .shadow-lg {
-    box-shadow: 0 0px 20px 10px #00000008 !important;
-    border: 1px solid #e8e8e8;
+    box-shadow: 0 0px 20px 10px #00000005 !important;
+    border: 1px solid #ededed;
 }
 
 .shadow-md {
@@ -12913,8 +12913,8 @@ button:focus {
 }
 
 .link {
-    font-size: .875rem;
-    display: inline-flex
+    font-size: 1rem;
+    display: inline;
 }
 
 .link-icon {
@@ -23671,16 +23671,17 @@ img {
         overflow: auto;
     }
 
-    .overflow-mobile.col-lg-7.col-sm-12 {
+    .overflow-mobile.col-lg-7.col-sm-12, .overflow-mobile.col-lg-10.col-sm-12, .overflow-mobile.col-lg-9.col-sm-12, .overflow-mobile.col-lg-8.col-sm-12 {
         justify-content: flex-start !important;
         max-width: 100% !important;
         flex: 100% !important;
         padding: 0 15px;
     }
+
     .show-sm {
         display: block;
     }
-    .container-normal-width > .col-lg-7.col-sm-12 {
+    .container-normal-width > .col-lg-7.col-sm-12, .container-normal-width > .col-lg-10.col-sm-12, .container-normal-width > .col-lg-9.col-sm-12, .container-normal-width > .col-lg-8.col-sm-12 {
         max-width: 100% !important;
         flex: 100% !important;
     }
@@ -23717,6 +23718,10 @@ img {
 }
 
 @media (max-width: 420px) {
+    .competitors-research {
+        padding: 2rem 1rem;
+    }
+
     .overview {
      max-width: 95%;
      padding: 1.75rem !important;
@@ -23822,7 +23827,7 @@ img {
 
 
 .scrollable-img-lg {
-    max-width: 850px !important;
+    max-width: 1100px !important;
 }
 
 .container-normal-width.portfolio-img-container.personas .row {
@@ -23831,7 +23836,7 @@ img {
 
 @media (max-width: 420px) {
 
-    .scrollable-img-xxl {
+    .scrollable-img-lg-mobile {
         max-width: 1050px !important;
     }
 
@@ -24092,7 +24097,7 @@ img {
 
 /*Caser*/
 
-.case-caser a {
+.case-caser .link {
     color: #d16626;
 }
 
