@@ -23469,7 +23469,7 @@ a:hover .text-hover-primary {
 
 @media (max-width:420px) {
     .empty-col-sm {
-        min-width: 70px;
+        min-width: 30px;
         display: block !important;
     }
     .overflow-mobile.col-10 .img-fluid:last-of-type {
