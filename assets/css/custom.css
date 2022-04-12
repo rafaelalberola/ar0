@@ -1,0 +1,9 @@
+.subtitle {
+    font-size: 0.92rem !important;
+}
+
+@media (max-width: 768px) {
+    .subtitle {
+        font-size: 0.8rem !important;
+    }
+}

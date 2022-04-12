@@ -9,8 +9,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta property="og:title" content="Rafael Alberola | UX/UI Product Designer">
-    <meta property="og:description" content="Currently designing thoughtful digital experiences at Allfunds, working together with product designers, product managers and developers.">
+    <meta property="og:title" content="Rafael Alberola | Product Designer">
+    <meta property="og:description" content="UX/UI Designer with over four years experience in delivering thoughtful design for digital products, crafting user experiences and helping businesses expand.">
     <meta property="og:image" content="./assets/share-social/share-index.jpg">
     <meta property="og:url" content="https://rafaelalberola.com">
     <meta name="twitter:card" content="summary_large_image">
@@ -31,20 +31,25 @@
 
     <!-- CSS Template -->
     <link rel="stylesheet" href="./assets/css/theme.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
 </head>
 
-<body data-spy="scroll" data-target="#navBar" data-offset="150">
+
+<body data-spy="scroll" data-target="#navBar" data-offset="150" class="home">
 
     <!-- ========== HEADER ========== -->
-    <header id="header" class="header header-box-shadow header-box-shadow-on-scroll header-floating-lg">
+    <header id="header" class="header header-bg-transparent-lg header-sticky-top-lg">
         <div id="logoAndNav" class="container">
             <div class="header-section header-floating-inner mx-lg-n3">
                 <!-- Nav -->
                 <nav class="js-mega-menu navbar navbar-expand-lg">
                     <!-- Logo -->
-                    <a class="navbar-brand" href="./index.html" aria-label="Front">
-                        <img src="./assets/svg/logos/logo-square.svg" alt="Logo">
-                    </a>
+                        <a href="./index.html" aria-label="Rafael Alberola">
+                            <div class="text-logo">
+                                <span class="name-logo mb-1">Rafael Alberola</span>
+                                <span class="role-logo">Product Designer</span>
+                            </div>
+                        </a>
                     <!-- End Logo -->
 
                     <!-- Responsive Toggle Button -->
@@ -71,23 +76,16 @@
                                     <a class="nav-link" href="#worksSection">Works</a>
                                 </li>
                                 <li class="navbar-nav-item">
-                                    <a class="nav-link" href="#toolsSection">Tools & tech</a>
+                                    <a class="nav-link" href="#contactSection">Contact</a>
                                 </li>
-                                <li class="navbar-nav-item">
-                                    <a class="nav-link" href="#skillsSection">Skills</a>
-                                </li>
-                                <li class="navbar-nav-item">
-                                    <a class="nav-link" href="#aboutSection">About Me</a>
+                                <li class="navbar-nav-item download-cv">
+                                    <a style="color: #141414; font-weight: 600;" class="nav-link" href="https://bit.ly/rafaelalberolacv" target="_blank">Download CV</a> <img class="external-icon" src="./assets/svg/icons/external-link.svg" alt="External link"/>
                                 </li>
 
-                                <!-- Button -->
-                                <li class="navbar-nav-last-item">
-                                    <a class="btn btn-sm btn-primary transition-3d-hover" href="#contactSection">Contact</a>
-                                </li>
-                                <!-- End Button -->
                             </ul>
                         </div>
-                        <!-- End Navigation -->
+                    </div>
+                    <!-- End Navigation -->
                 </nav>
                 <!-- End Nav -->
                 </div>
@@ -101,34 +99,28 @@
         <!-- Hero Section -->
 
         <div class="position-relative bg-img-hero border-hero">
-            <div class="container hero">
-                <div class="row justify-content-lg-between align-items-lg-center pt-lg-10">
+            <div class="container hero m-height-100">
+                <div data-aos="fade-up" class="row justify-content-lg-between align-items-lg-center pt-lg-10">
                     <div class="col-lg-5">
                         <!-- Info -->
                         <div class="mb-5">
-                            <h1 class="display-4 mb-3" style="letter-spacing: -1.5px !important">UX/UI <br />Product Designer</h1>
-                            <p class="lead">Currently designing thoughtful digital experiences at <strong><a href="https://www.allfunds.com" target="_blank">Allfunds</a></strong>, working together with Product Designers, Product Managers and Developers.</p>
+                            <h1 class="display-4 mb-0" style="letter-spacing: -1.5px !important">Hello, I'm Rafael <span class="wave" style="margin-left: 5px;">👋🏼</span></h1>
+                            <p class="subtitle mb-4 opacity-50">Solving problems through user-centric digital products.</p>
+                            <p class="lead">I'm a UX/UI Designer with over four years experience in delivering thoughtful design for digital products, crafting user experiences and helping businesses expand.</p>
                         </div>
                         <!-- End Info -->
 
                         <!-- Form -->
                         <div class="row mb-5">
                             <div class="col-lg-5 mb-3">
-                                <a class="btn btn-primary btn-block transition-3d-hover" href="#worksSection">Get Started</a>
+                                <a class="btn btn-primary btn-block" href="#worksSection">Explore Works</a>
                             </div>
-                            <div class="col-lg-5 mb-2">
-                                <a class="btn btn-secondary btn-block transition-3d-hover" href="#contactSection">Contact</a>
-                            </div>
-
-
                         </div>
                         </form>
                         <!-- End Form -->
 
-
-
                         <!-- Interactive contact -->
-                        <div class="profile-signature profile-signature--contact mb-4">
+                        <div class="d-none profile-signature profile-signature--contact mb-4">
                             <a class="profile-signature__link" href="mailto:alberolarafa0@gmail.com">
                                 <div class="profile-img">
                                     <div class="img img-container">
@@ -169,9 +161,6 @@
                                 <div class="mb-3" data-aos="fade-up" data-aos-delay="400">
                                     <img class="img-fluid shadow-lg rounded" src="./assets/img/img-gallery/img6.png" alt="Toto Wizard">
                                 </div>
-                                <div class="mb-3" data-aos="fade-up" data-aos-delay="500" data-aos-offset="-50">
-                                    <img class="img-fluid shadow-lg rounded" src="./assets/img/img-gallery/img14.png" alt="Button Spotify">
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -181,657 +170,126 @@
         </div>
         <!-- End Hero Section -->
 
+        <!-- Portfolio Section -->
+        
+    <div id="worksSection" class="container space-1 space-lg-3">
+        <!-- Card -->
+        <div data-aos="fade-up">
+          <div class="container-works w-90 m-auto">
 
-        <div id="worksSection" class="space-bottom-1"></div>
+            <div class="work d-flex flex-row mb-10">
 
-        <!-- Recent Works Section -->
-        <div class="recent-works position-relative bg-works space-bottom-1">
-            <div class="container space-top-1">
-                <div class="row justify-content-lg-between align-items-lg-center pt-lg-5">
-                    <div class="col-lg-5 padding-sm">
-                        <!-- Title -->
-                        <div class="mb-5">
-                            <h2 class="h1">Recent Works</h2>
-                            <p class="lead w-lg-80">You can see here some of my <strong>recent works</strong> and get behind the scenes of my design process.</p>
-                        </div>
-                        <!-- End Title -->
+                <div class="image-work-container col-lg-6 col-sm-12">
+              
+                    <div class="case-arcano image-work col-lg-12 d-flex flex-column justify-content-center align-items-center">
+                        <a href="./arcano.html" alt=""><img class="img-fluid rounded work-img" src="./assets/svg/images/arcano/arcano-cover.svg" alt="Sign-Up Page Design
+                            for Arcano Partners"></a>
                     </div>
+
+                    <div class="used-tools">
+
+                        <div data-toggle="tooltip" data-placement="top" title="Figma" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <img class="img-fluid" src="./assets/svg/tools/figma.svg" alt="Figma">
+                        </div>
+
+                        <div data-toggle="tooltip" data-placement="top" title="User Testing" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <img class="img-fluid" src="./assets/svg/tools/usertesting.svg" alt="User Testing">
+                        </div>
+
+                        <div data-toggle="tooltip" data-placement="top" title="Illustrator" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <img class="img-fluid" src="./assets/svg/tools/illustrator.svg" alt="Illustrator">
+                        </div>
+
+                        <div data-toggle="tooltip" data-placement="top" title="Others" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <span>+2</span>
+                        </div>
+
+                    </div>
+
                 </div>
-                <div class="row justify-content-center">
-                    <div class="container">
-                        <!-- Carousel -->
-                        <div class="js-slick-carousel slick slick-gutters-3 mb-5 mb-lg-3" data-hs-slick-carousel-options='{
-                            "slidesToShow": 3,
-                            "dots": true,
-                            "dotsClass": "slick-pagination d-lg-none",
-                            "responsive": [{
-                                "breakpoint": 1200,
-                                "settings": {
-                                    "slidesToShow": 3
-                                }
-                                }, {
-                                "breakpoint": 992,
-                                "settings": {
-                                "slidesToShow": 2
-                                }
-                                }, {
-                                "breakpoint": 768,
-                                "settings": {
-                                "slidesToShow": 2
-                                }
-                                }, {
-                                "breakpoint": 554,
-                                "settings": {
-                                "slidesToShow": 1
-                                }
-                            }]
-                            }'>
 
-                            <div class="js-slide pb-6">
-                                <!-- Project -->
-                                <div class="card card-bordered card-hover-shadow h-100 transition-3d-hover" href="#">
-                                    <div class="card-body 5 px-4 text-left">
-                                        <div><img class="img-fluid" src="./assets/img/works/allfunds.png" alt="Allfunds Connect"></div>
+                <div class="work-information col-lg-4 d-flex flex-column justify-content-center align-items-start m-auto">
+                    <div class="client work-badge mb-5 mt-5">Arcano Partners</div>
+                    <a class="work-title" href="./arcano.html"><h2>Sign-Up Page Design <br/>for Arcano Partners</h2></a>
+                    <p class="work-description mb-2">Designing an onboarding process for investors  <br/>to manage their savings more easily.</p>
 
-                                        <div class="space-top-1">
-                                            <span class="badge badge-soft-info mr-2">
-                                <span class="legend-indicator bg-info"></span>Allfunds
-                                            </span>
-
-                                            <span class="badge badge-soft-secondary mr-2">
-                                    <span class="legend-indicator bg-secondary"></span>UX/UI Product Design
-                                            </span>
-                                        </div>
-
-                                        <div class="space-top-1">
-                                            <h3>Allfunds Connect</h3>
-                                            <p class="text-body w-lg-90 pb-3">Design iterations to the Onboarding process in the Allfunds Connect experience.</p>
-                                            <a class="btn btn-primary btn-block transition-3d-hover" href="./allfunds-connect.html">View more</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- End Project -->
-                            </div>
-
-                            <div class="js-slide pb-6">
-                                <!-- Project -->
-                                <div class="card card-bordered card-hover-shadow h-100 transition-3d-hover" href="#">
-                                    <div class="card-body 5 px-4 text-left">
-                                        <div><img class="img-fluid" src="./assets/img/works/caser.png" alt="Allfunds Connect"></div>
-
-                                        <div class="space-top-1">
-                                            <span class="badge badge-soft-info mr-2">
-                                <span class="legend-indicator bg-info"></span>Allfunds
-                                            </span>
-
-                                            <span class="badge badge-soft-secondary mr-2">
-                                    <span class="legend-indicator bg-secondary"></span>UX/UI Product Design
-                                            </span>
-                                        </div>
-
-                                        <div class="space-top-1">
-                                            <h3>Caser Asesores</h3>
-                                            <p class="text-body w-lg-90 pb-3">Defining, improving and iterating the design of the webportal for Caser Asesores Financieros.</p>
-                                            <a class="btn btn-primary btn-block transition-3d-hover" href="./caser.html">View more</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- End Project -->
-                            </div>
-
-                            <div class="js-slide pb-6">
-                                <!-- Project -->
-                                <div class="card card-bordered card-hover-shadow h-100 transition-3d-hover" href="#">
-                                    <div class="card-body 5 px-4 text-left">
-                                        <div><img class="img-fluid" src="./assets/img/works/sony-music.png" alt="Allfunds Connect"></div>
-
-                                        <div class="space-top-1">
-                                            <span class="badge badge-soft-info mr-2">
-                                <span class="legend-indicator bg-info"></span>Digitis
-                                            </span>
-
-                                            <span class="badge badge-soft-secondary mr-2">
-                                    <span class="legend-indicator bg-secondary"></span>UX/UI Product Design
-                                            </span>
-                                        </div>
-
-                                        <div class="space-top-1">
-                                            <h3>Sony Music</h3>
-                                            <p class="text-body w-lg-90 pb-3">Improving and simplifying the look and feel of the Artist Single page for Sony Music Spain.</p>
-                                            <a class="btn btn-primary btn-block transition-3d-hover" href="./sony-music.html">View more</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- End Project -->
-                            </div>
-
-                        </div>
-                        <!-- End Carousel -->
+                    <div class="custom-divider opacity-50">—</div>
+                    
+                    <div class="work-date d-flex justify-contents-center mt-2 mb-5 opacity-50">
+                        <img class="img-fluid" src="./assets/img/img-gallery/date.svg" alt="Date">
+                        <span class="date ml-2 opacity-70">February 2022</span>
                     </div>
-                    <div class="text-center">
-                        <!-- Info -->
-                        <div class="position-relative z-index-2 text-center">
-                            <div class="d-inline-block font-size-1 border bg-white text-center rounded-pill py-2 px-4 mt-3 card-hover-shadow card" style="cursor: default;">
-                                <strong class="text-dark">Last updated:</strong>
-                                <span id="datetime"></span>
-                                <script>
-                                    var todayTimeStamp = +new Date; // Unix timestamp in milliseconds
-                                    var oneDayTimeStamp = 1000 * 60 * 60 * 24; // Milliseconds in a day
-                                    var diff = todayTimeStamp - oneDayTimeStamp;
-                                    var yesterdayDate = new Date(diff);
-                                    var yesterdayString = (yesterdayDate.getDate() - 1) + '-' + (yesterdayDate.getMonth() + 0) + '-' + yesterdayDate.getFullYear();
-                                    document.getElementById("datetime").innerHTML = yesterdayString.toLocaleString();
-                                </script>
-                            </div>
-                        </div>
-                        <!-- End Info -->
+
+                    <div class="col-lg-6 mb-3 p-0">
+                        <a class="btn btn-sm btn-primary btn-block" href="./arcano.html">Read Case Study</a>
                     </div>
                 </div>
             </div>
+          </div>
         </div>
+        <!-- End Card -->
 
+        <div class="horizontal_dotted_line mb-10 show-sm"></div>
 
-        </div>
-        <!-- End Recent Works Section -->
+        <!-- Card -->
+        <div data-aos="fade-up">
+            <div class="container-works w-90 m-auto">
+  
+              <div class="work column-reverse d-flex flex-row mb-10 ">
 
+                <div class="work-information col-lg-4 d-flex flex-column justify-content-center align-items-start m-auto">
+                    <div class="client work-badge mb-5 mt-5">Caser Asesores Financieros</div>
+                    <a class="work-title" href="./caser.html"><h2>Webapp Redesign <br/>for Caser Asesores</h2></a>
+                    <p class="work-description mb-2">Providing a functional redesigning <br/>of Caser's webapp interface.</p>
 
-        <div id="toolsSection" class="space-top-1"></div>
-
-
-        <!-- Tools and Tech Section -->
-        <div class="tools container space-top-2 space-bottom-1 bg-works rounded">
-
-            <!-- Title -->
-            <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-5">
-                <h2 class="h1">Tools and Technologies</h2>
-                <p class="tools-description">These are some of the tools and technologies that I use for designing thoroughly tested <strong>interfaces</strong> and <strong>user experiences</strong>.</p>
-            </div>
-            <!-- End Title -->
-
-            <div class="row">
-
-                <div class="container position-relative">
-
-                    <!-- Clients Section -->
-                    <div class="position-relative bottom-0 right-0 left-0">
-                        <div class="container-fluid py-5 tools-icons">
-                            <div class="js-slick-carousel slick" data-hs-slick-carousel-options='{
-                     "slidesToShow": 8,
-                     "slidesToScroll": 3,
-                     "autoplay": true,
-                     "autoplaySpeed": 1000,
-                     "infinite": true,
-                     "responsive": [{
-                       "breakpoint": 1200,
-                       "settings": {
-                         "slidesToShow": 4
-                       }
-                     }, {
-                       "breakpoint": 992,
-                       "settings": {
-                         "slidesToShow": 4
-                       }
-                     }, {
-                       "breakpoint": 768,
-                       "settings": {
-                         "slidesToShow": 3
-                       }
-                     }, {
-                       "breakpoint": 576,
-                       "settings": {
-                         "slidesToShow": 3
-                       }
-                     }]
-                   }'>
-
-                                <div data-toggle="tooltip" data-placement="top" title="Figma" class="card card-bordered card-hover-shadow h-100 transition-3d-hover mx-3 py-2 mb-4">
-                                    <div class="js-slide">
-                                        <img class="max-w-11rem max-w-md-13rem mx-auto" src="./assets/svg/tools/figma.svg" alt="Image Description">
-                                    </div>
-                                </div>
-                                <div data-toggle="tooltip" data-placement="top" title="Sketch" class="card card-bordered card-hover-shadow h-100 transition-3d-hover mx-3 py-2 mb-4">
-                                    <div class="js-slide">
-                                        <img class="max-w-11rem max-w-md-13rem mx-auto" src="./assets/svg/tools/sketch.svg" alt="Image Description">
-                                    </div>
-                                </div>
-
-                                <div data-toggle="tooltip" data-placement="top" title="Marvel" class="card card-bordered card-hover-shadow h-100 transition-3d-hover mx-3 py-2 mb-4">
-                                    <div class="js-slide">
-                                        <img class="max-w-11rem max-w-md-13rem mx-auto" src="./assets/svg/tools/marvel.svg" alt="Image Description">
-                                    </div>
-                                </div>
-
-                                <div data-toggle="tooltip" data-placement="top" title="InVision Studio" class="card card-bordered card-hover-shadow h-100 transition-3d-hover mx-3 py-2 mb-4">
-                                    <div class="js-slide">
-                                        <img class="max-w-11rem max-w-md-13rem mx-auto" src="./assets/svg/tools/invision.svg" alt="Image Description">
-                                    </div>
-                                </div>
-
-                                <div data-toggle="tooltip" data-placement="top" title="Adobe XD" class="card card-bordered card-hover-shadow h-100 transition-3d-hover mx-3 py-2 mb-4">
-                                    <div class="js-slide">
-                                        <img class="max-w-11rem max-w-md-13rem mx-auto" src="./assets/svg/tools/xd.svg" alt="Image Description">
-                                    </div>
-                                </div>
-
-                                <div data-toggle="tooltip" data-placement="top" title="Framer" class="card card-bordered card-hover-shadow h-100 transition-3d-hover mx-3 py-2 mb-4">
-                                    <div class="js-slide">
-                                        <img class="max-w-11rem max-w-md-13rem mx-auto" src="./assets/svg/tools/framer.svg" alt="Image Description">
-                                    </div>
-                                </div>
-                                <div data-toggle="tooltip" data-placement="top" title="Principle" class="card card-bordered card-hover-shadow h-100 transition-3d-hover mx-3 py-2 mb-4">
-                                    <div class="js-slide">
-                                        <img class="max-w-11rem max-w-md-13rem mx-auto" src="./assets/svg/tools/principle.svg" alt="Image Description">
-                                    </div>
-                                </div>
-                                <div data-toggle="tooltip" data-placement="top" title="Zeplin" class="card card-bordered card-hover-shadow h-100 transition-3d-hover mx-3 py-2 mb-4">
-                                    <div class="js-slide">
-                                        <img class="max-w-11rem max-w-md-13rem mx-auto" src="./assets/svg/tools/zeplin.svg" alt="Image Description">
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+                    <div class="custom-divider opacity-50">—</div>
+                    
+                    <div class="work-date d-flex justify-contents-center mt-2 mb-5 opacity-50">
+                        <img class="img-fluid" src="./assets/img/img-gallery/date.svg" alt="Date">
+                        <span class="date ml-2 opacity-70">December 2021</span>
                     </div>
-                    <!-- End Clients Section -->
+
+                    <div class="col-lg-6 mb-3 p-0">
+                        <a class="btn btn-sm btn-primary btn-block" href="./caser.html">Read Case Study</a>
+                    </div>
+                </div>
+                
+                <div class="image-work-container col-lg-6 col-sm-12">
+              
+                    <div class="case-caser image-work col-lg-12 d-flex flex-column justify-content-center align-items-center">
+                        <a href="./caser.html"><img class="img-fluid rounded work-img" src="./assets/svg/images/caser/caser-cover.svg" alt="Redesigning the webapp interface for Caser Asesores Financieros"></a>
+                    </div>
+
+                    <div class="used-tools">
+
+                        <div data-toggle="tooltip" data-placement="top" title="Figma" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <img class="img-fluid" src="./assets/svg/tools/figma.svg" alt="Figma">
+                        </div>
+
+                        <div data-toggle="tooltip" data-placement="top" title="Useberry" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <img class="img-fluid" src="./assets/svg/tools/useberry.svg" alt="Useberry">
+                        </div>
+
+                        <div data-toggle="tooltip" data-placement="top" title="Optimal Workshop" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <img class="img-fluid" src="./assets/svg/tools/optimal-workshop.svg" alt="Optimal Workshop">
+                        </div>
+
+                        <div data-toggle="tooltip" data-placement="top" title="Others" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <span>+2</span>
+                        </div>
+
+                    </div>
 
                 </div>
 
+              </div>
             </div>
-
-        </div>
-        <!-- End Tools and Tech Section -->
-
-
-        <div id="skillsSection" class="space-top-1"></div>
-
-
-        <!-- Skills Section -->
-        <div class="container space-top-1 space-bottom-1 w-lg-65 about-me skills">
-            <div class="row about-me align-items-center">
-                <div class="col-lg-12 p-0">
-
-
-                    <div class="row align-items-center">
-                        <div class="col-lg-12 p-0">
-
-                            <!-- Title -->
-                            <h2 class="h1 ">Skills</h2>
-                            <!-- End Title -->
-
-
-                            <!-- Product Design Skills -->
-                            <div class="product-design-skills d-flex align-items-center" style="flex-flow: wrap; margin: 30px 0;">
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Figma</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Sketch</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Adobe XD</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Marvel</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Zeplin</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Miro</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Hotjar</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Optimal Workshop</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">User Research</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Prototype</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Wireframe</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">User Journey</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">User Flow</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Benchmarking</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Card Sorting</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Tree Testing</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Survey</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">A/B Testing</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- End Product Design Skills -->
-
-
-                            <!-- Agile Skills -->
-
-                            <div class="agile-skills d-flex align-items-center" style="flex-flow: wrap; margin: 0 0 30px 0;">
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Sprints</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">MVP</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Lean UX</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Agile UX</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Design Thinking</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">User-Centered Design</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- End Agile Skills -->
-
-
-                            <!-- Code Skills -->
-
-                            <div class="code-skills d-flex align-items-center" style="flex-flow: wrap; margin: 0 0 30px 0;">
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">HTML5</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">CSS3</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">SASS</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Bootstrap</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">PHP</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">JS</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Git</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">CMS</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- End Code Skills -->
-
-
-                            <!-- Design Skills -->
-
-                            <div class="design-skills d-flex align-items-center" style="flex-flow: wrap; margin: 0 0 30px 0;">
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Photoshop</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">Illustrator</p>
-                                    </div>
-                                </div>
-
-                                <div style="cursor: default;" class="card card-bordered card-hover-shadow h-100 transition-3d-hover m-1">
-                                    <div>
-                                        <p class="mb-0 p-2 px-3">InDesign</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- End Design Skills -->
-
-
-
-                            <!-- Leyenda Skills -->
-                            <div class="row-skills" style="width: fit-content;">
-                                <div class="font-size-1 col-12 leyenda-skills d-flex p-1 card-hover-shadow card border" style="margin: 30px auto 60px;">
-
-                                    <div class="d-flex align-items-center" style="flex-flow: wrap; cursor: default;">
-                                        <div>
-                                            <p class="m-1 mb-0 p-2 px-3 design-skills-text bg-soft-purple"><strong>Product</strong></p>
-                                        </div>
-                                    </div>
-
-                                    <div class="d-flex align-items-center" style="flex-flow: wrap; cursor: default;">
-                                        <div>
-                                            <p class="m-1 mb-0 p-2 px-3 design-skills-text bg-soft-yellow"><strong>Methods</strong></p>
-                                        </div>
-                                    </div>
-
-                                    <div class="d-flex align-items-center" style="flex-flow: wrap; cursor: default;">
-                                        <div>
-                                            <p class="m-1 mb-0 p-2 px-3 design-skills-text bg-soft-blue"><strong>Code</strong></p>
-                                        </div>
-                                    </div>
-
-                                    <div class="d-flex align-items-center" style="flex-flow: wrap; cursor: default;">
-                                        <div>
-                                            <p class="m-1 mb-0 p-2 px-3 design-skills-text bg-soft-green"><strong>Graphic</strong></p>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                            <!-- End Leyenda Skills -->
-
-
-
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- End Skills Section -->
-
-        <div id="aboutSection" class="space-top-1"></div>
-
-
-        <!-- About Section -->
-        <div class="container space-top-1 space-bottom-2 w-lg-65 about-me">
-            <div class="row about-me align-items-center">
-                <div class="col-lg-12 p-0">
-                    <!-- Title -->
-                    <h2 class="h1 ">About me</h2>
-                    <!-- End Title -->
-                </div>
-
-                <div class="row about-me align-items-center">
-                    <div class="col-lg-8">
-                        <div class="mb-8 w-lg-90">
-
-                            <p>Currently, I’m designing thoughtful experiences at <strong><a href="https://www.allfunds.com " target="_blank ">Allfunds</a></strong> with an amazing team to help designers, product managers and engineers collaborate better
-                                together.
-                            </p>
-                            <p>Outside of my full-time commitments, I work with a select <strong>freelance client base</strong> to create amazing products and solutions.</p>
-                            <p>I’m passionate about building and designing delightful experiences with the combination of <strong>Business</strong>, <strong>Marketing</strong> and <strong>UX/UI Product Design</strong> to make customers and users satisfied
-                                when they’re using products and services online.</p>
-                            <p>My career goal in the near future is to work as a <strong>Product Design Lead</strong>.</p>
-
-                            <!-- End Row -->
-                        </div>
-
-                        <!-- Sticky Block End Point -->
-                        <div id="stickyBlockEndPoint "></div>
-                    </div>
-
-                    <div class="col-lg-4 mb-8 ">
-                        <div id="stickyBlockStartPoint " class="pl-lg-4 ">
-                            <!-- Team -->
-                            <div class="card card-bordered card-hover-shadow h-100 mb-20 ">
-                                <div class="card-body">
-
-                                    <div class="profile-signature profile-signature--contact-card mb-4 ">
-                                        <a class="profile-signature__link ">
-                                            <div class="profile-img avatar-xl position-relative ">
-                                                <div class="img-container img ">
-                                                    <img class="avatar-xl " src="./assets/img/myself/avatar-rafa.png " alt="Rafael Alberola - UX/UI Product Designer ">
-                                                </div>
-                                                <div data-toggle="tooltip " data-placement="top " title="Online " class="estimate-indicator--circle indicator--green-gradient "></div>
-                                            </div>
-
-                                        </a>
-                                    </div>
-
-                                    <div class="d-flex align-items-center mb-1 ">
-                                        <h3 class="d-block text-dark font-weight-bold text-lh-sm mb-0 name-card ">Rafael Alberola</h3>
-                                    </div>
-
-                                    <span class="d-block small font-weight-bold text-cap mb-1 ">UX/UI Product Designer</span>
-
-                                    <div style="margin-top: 20px">
-                                        <ul class="list-inline mb-0">
-                                            <!-- Social Networks -->
-                                            <li class="list-inline-item">
-                                                <a class="btn btn-xs btn-icon btn-soft-dark" href="https://linkedin.com/in/rafaelalberola" target="_blank">
-                                                    <i class="fab fa-linkedin"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="btn btn-xs btn-icon btn-soft-dark" href="https://github.com/rafaelalberola" target="_blank">
-                                                    <i class="fab fa-github"></i>
-                                                </a>
-                                            </li>
-                                            <!-- End Social Networks -->
-                                        </ul>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- End Team -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Description Section -->
+          </div>
+          <!-- End Card -->
+  
+    
+      </div>
+      <!-- End Portfolio Section -->
 
     </main>
     <!-- ========== END MAIN CONTENT ========== -->
@@ -865,7 +323,10 @@
                                 </div>
                             </div>
                             <!-- End Interactive Contact -->
-                            <a class="btn btn-primary btn-block transition-3d-hover " href="mailto:alberolarafa0@gmail.com ">Let's Talk Now</a>
+
+                            <div class="container contact-btn">
+                                <a style="color: #141414" class="btn bg-white btn-primary btn-block transition-3d-hover" href="mailto:alberolarafa0@gmail.com">Let's Talk Now <img class="external-icon" src="./assets/svg/icons/external-link.svg" alt="External link"/></a>
+                            </div>
 
                         </div>
 
