@@ -1,4 +1,4 @@
-/* apply a natural box layout model to all elements  - http://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
+/* apply a natural box layout model to all elements  - https://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

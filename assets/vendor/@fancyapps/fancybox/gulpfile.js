@@ -15,7 +15,7 @@ var banner = [
   "// Licensed GPLv3 for open source use",
   "// or fancyBox Commercial License for commercial use",
   "//",
-  "// http://fancyapps.com/fancybox/",
+  "// https://fancyapps.com/fancybox/",
   "// Copyright ${new Date().getFullYear()} fancyApps",
   "//",
   "// ==================================================",

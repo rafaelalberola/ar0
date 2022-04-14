@@ -32,7 +32,7 @@ Forks to use it with another frameworks that I know of:
 
 ## How to use it
 
-Get the latest version through [Bower](http://bower.io/search/?q=pwstrength-bootstrap),
+Get the latest version through [Bower](https://bower.io/search/?q=pwstrength-bootstrap),
 [npm](https://www.npmjs.com/package/pwstrength-bootstrap), or just download it
 from this [repository](https://github.com/ablanco/jquery.pwstrength.bootstrap/tree/master/dist).
 Load it into your HTML after your original bootstrap and jQuery javascript files:
@@ -209,7 +209,7 @@ The plugin provides a default implementation of the translation function, but
 you can override it using the option `i18n.t`.
 
 The default implementation will try to make use of the popular
-[i18next front-end translation tool](http://i18next.com/). If you happen to
+[i18next front-end translation tool](https://i18next.com/). If you happen to
 use it, then you only need to add the translations into your resources and
 load them. The plugin will automatically make use of it. You can find more
 details about and how to use it i18next in their website. There is also an
@@ -260,14 +260,14 @@ cd examples
 python -m SimpleHTTPServer
 ```
 
-And go to [localhost:8000](http://localhost:8000).
+And go to [localhost:8000](https://localhost:8000).
 
 Alternatively, you can check-out the examples in a [hosted demo](https://cdn.rawgit.com/ablanco/jquery.pwstrength.bootstrap/master/examples/index.html).
 
 ## Build and Test
 
-The build and testing processes rely on [Grunt](http://gruntjs.com/). To use
-them you need to have [node.js](http://nodejs.org/) and grunt-cli installed on
+The build and testing processes rely on [Grunt](https://gruntjs.com/). To use
+them you need to have [node.js](https://nodejs.org/) and grunt-cli installed on
 your system. Assuming you have node.js in your Linux system, you'll need to do
 something like this:
 
@@ -304,7 +304,7 @@ grunt test
 ```
 
 It will check all the source files with [ESLint](https://eslint.org/) and run the
-tests, which are written with [Jasmine](http://jasmine.github.io/). You'll find
+tests, which are written with [Jasmine](https://jasmine.github.io/). You'll find
 the tests source code in the `spec` directory.
 
 [Travis](https://travis-ci.org/ablanco/jquery.pwstrength.bootstrap) is being

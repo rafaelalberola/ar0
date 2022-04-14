@@ -60,9 +60,9 @@ This plugin adds some properties to the `jQuery` object that can be used to prog
 
 Bugs that only occur when the jQuery Migrate plugin is used should be reported in the [jQuery Migrate Issue Tracker](https://github.com/jquery/jquery-migrate/issues) and should be accompanied by an executable test case that demonstrates the bug. The easiest way to do this is via an online test tool such as [jsFiddle.net](https://jsFiddle.net/) or [jsbin.com](https://jsbin.com). Use the development version when you are reporting bugs.
 
-Bugs in jQuery itself should be reported on the [jQuery Core bug tracker](https://bugs.jquery.com/) and again should be accompanied by a test case from [jsFiddle.net](https://jsFiddle.net/) or [jsbin.com](http://jsbin.com) so that we can reproduce the issue.
+Bugs in jQuery itself should be reported on the [jQuery Core bug tracker](https://bugs.jquery.com/) and again should be accompanied by a test case from [jsFiddle.net](https://jsFiddle.net/) or [jsbin.com](https://jsbin.com) so that we can reproduce the issue.
 
-For other questions about the plugin that aren't bugs, ask on the [jQuery Forum](http://forum.jquery.com).
+For other questions about the plugin that aren't bugs, ask on the [jQuery Forum](https://forum.jquery.com).
 
 Build and run tests:
 ====================================================
@@ -75,7 +75,7 @@ $ npm install
 $ npm run build
 ```
 
-## Build with [`grunt`](http://gruntjs.com/)
+## Build with [`grunt`](https://gruntjs.com/)
 
 ```sh
 $ git clone git://github.com/jquery/jquery-migrate.git

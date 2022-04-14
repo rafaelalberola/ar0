@@ -4,10 +4,10 @@
 
 ## Demos
 
-- [appear.js simple test page](http://creativelive.github.io/appear/examples/simple/)
-- [appearlazy](http://creativelive.github.io/appear/examples/lazy/) - a full fledged lazy image loader that uses appear.js
+- [appear.js simple test page](https://creativelive.github.io/appear/examples/simple/)
+- [appearlazy](https://creativelive.github.io/appear/examples/lazy/) - a full fledged lazy image loader that uses appear.js
 
-Be sure to view the documentation on the [project page](http://creativelive.github.io/appear/)
+Be sure to view the documentation on the [project page](https://creativelive.github.io/appear/)
 
 ## Usage
 
@@ -64,4 +64,4 @@ appear({
 
 ---
 
-appear.js logo designed by [Magicon](http://thenounproject.com/magicon) from the [Noun Project](http://thenounproject.com/) :: Creative Commons - Attribution (CC BY 3.0)
+appear.js logo designed by [Magicon](https://thenounproject.com/magicon) from the [Noun Project](https://thenounproject.com/) :: Creative Commons - Attribution (CC BY 3.0)

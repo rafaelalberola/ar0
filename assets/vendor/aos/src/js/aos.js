@@ -107,7 +107,7 @@ const init = function init(settings) {
   $aosElements = elements();
 
   // Detect not supported browsers (<=IE9)
-  // http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+  // https://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
   const browserNotSupported = document.all && !window.atob;
 
   /**

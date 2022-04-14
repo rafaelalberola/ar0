@@ -702,7 +702,7 @@ Thanks to [@benbro](https://github.com/benbro) for the bug reports for this rele
 
 # 1.0.0-beta.0
 
-Please see the [Upgrading to 1.0](http://beta.quilljs.com/guides/upgrading-to-1-0/) guide.
+Please see the [Upgrading to 1.0](https://beta.quilljs.com/guides/upgrading-to-1-0/) guide.
 
 
 # 0.20.1

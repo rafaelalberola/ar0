@@ -1,6 +1,6 @@
 # Circles
 
-![Circles](http://lugolabs.com/static/circles.png)
+![Circles](https://lugolabs.com/static/circles.png)
 
 Lightweight JavaScript library that generates circular graphs in SVG. Now with animation.
 
@@ -153,13 +153,13 @@ You can override these classes by sending properties `wrpClass` and/or `textClas
 
 ### Tests
 
-Tests can be run with [karma](http://karma-runner.github.io/0.12/index.html):
+Tests can be run with [karma](https://karma-runner.github.io/0.12/index.html):
 
 ```shell
 karma start
 ```
 
-or [grunt](http://gruntjs.com):
+or [grunt](https://gruntjs.com):
 
 ```shell
 grunt jasmine
@@ -204,8 +204,8 @@ Browsers that support SVG.
 
 Code and ideas borrowed by:
 
-* [Highcharts](http://highcharts.com)
-* Wout Fierens's [svg.js](http://svgjs.com)
+* [Highcharts](https://highcharts.com)
+* Wout Fierens's [svg.js](https://svgjs.com)
 
 
 ### Licence

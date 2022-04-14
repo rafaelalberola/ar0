@@ -38,7 +38,7 @@ This is _not_ a warning, but a console log message the plugin shows when it firs
 
 **Cause:** A browser runs in "quirks mode" when the HTML document does not have a `<!doctype ...>` as its first non-blank line, or when the doctype in the file is invalid. This mode causes the browser to emulate 1990s-era (HTML3) behavior. In Internet Explorer, it also causes many high-performance APIs to be hidden in order to better emulate ancient browsers. jQuery has never been compatible with, or tested in, quirks mode.
 
-**Solution:** Put a [valid doctype](http://www.w3.org/QA/2002/04/valid-dtd-list.html) in the document and ensure that the document is rendering in standards mode. The simplest valid doctype is the HTML5 one, which we highly recommend: `<!doctype html>` . The jQuery Migrate plugin does not attempt to fix issues related to quirks mode.
+**Solution:** Put a [valid doctype](https://www.w3.org/QA/2002/04/valid-dtd-list.html) in the document and ensure that the document is rendering in standards mode. The simplest valid doctype is the HTML5 one, which we highly recommend: `<!doctype html>` . The jQuery Migrate plugin does not attempt to fix issues related to quirks mode.
 
 ### JQMIGRATE: jQXHR.success is deprecated and removed
 ### JQMIGRATE: jQXHR.error is deprecated and removed
@@ -134,7 +134,7 @@ This is _not_ a warning, but a console log message the plugin shows when it firs
 
 **Cause**: Additional arguments for `jQuery.easing` methods were never documented and are redundant since the same behavior can be easily achieved without them. When Migrate detects this case, the specified easing function is not used and `"linear"` easing is used instead for the animation.
 
-**Solution**: Rewrite the easing function to only use one argument. If you are using the [jQuery Easing plugin](http://gsgd.co.uk/sandbox/jquery/easing), upgrade to [version 1.4.0 or higher](https://github.com/gdsmith/jquery.easing/releases).
+**Solution**: Rewrite the easing function to only use one argument. If you are using the [jQuery Easing plugin](https://gsgd.co.uk/sandbox/jquery/easing), upgrade to [version 1.4.0 or higher](https://github.com/gdsmith/jquery.easing/releases).
 
 For example, to implement [Cubic](https://en.wikipedia.org/wiki/Cubic_function) easing, the old function might be:
 
@@ -225,7 +225,7 @@ See jQuery-ui [commit](https://github.com/jquery/jquery-ui/commit/c0093b599fcd58
 
 ### JQMIGRATE: jQuery.fn.hover() is deprecated
 
-**Cause:** The `.hover()` method is a shorthand for the use of the `mouseover`/`mouseout` events. It is often a poor user interface choice because it does not allow for any small amounts of delay between when the mouse enters or exits an area and when the event fires. This can make it quite difficult to use with UI widgets such as drop-down menus.  For more information on the problems of hovering, see the [hoverIntent plugin](http://cherne.net/brian/resources/jquery.hoverIntent.html).
+**Cause:** The `.hover()` method is a shorthand for the use of the `mouseover`/`mouseout` events. It is often a poor user interface choice because it does not allow for any small amounts of delay between when the mouse enters or exits an area and when the event fires. This can make it quite difficult to use with UI widgets such as drop-down menus.  For more information on the problems of hovering, see the [hoverIntent plugin](https://cherne.net/brian/resources/jquery.hoverIntent.html).
 
 **Solution:** Review uses of `.hover()` to determine if they are appropriate, and consider use of plugins such as `hoverIntent` as an alternative. The direct replacement for `.hover(fn1, fn2)`, is `.on("mouseenter", fn1).on("mouseleave", fn2)`.
 

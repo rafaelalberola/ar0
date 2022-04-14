@@ -27,7 +27,7 @@
     "url": "https://openjsf.org"
   },
   "bugs": {
-    "url": "http://bugs.jquery.com/"
+    "url": "https://bugs.jquery.com/"
   },
   "bundleDependencies": false,
   "commitplease": {

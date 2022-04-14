@@ -399,7 +399,7 @@ This builds upon [the second release candidate](https://github.com/select2/selec
 ##### Removed
 - `.select2("onSortStart")` and `.select2("onSortEnd")` - A custom [selection adapter](https://select2.org/advanced/default-adapters/selection) should be created instead
 - `.select2("data", data)` - Create the `<option>` tags for the objects that you would like to set, and set the `.val` to select them
-- `.select2("readonly")` - There is [no way to make a `<select>` element read-only](http://stackoverflow.com/q/368813/359284), disable it instead
+- `.select2("readonly")` - There is [no way to make a `<select>` element read-only](https://stackoverflow.com/q/368813/359284), disable it instead
 
 #### Events
 

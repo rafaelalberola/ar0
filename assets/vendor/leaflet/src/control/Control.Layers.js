@@ -10,7 +10,7 @@ import * as DomUtil from '../dom/DomUtil';
  * @aka L.Control.Layers
  * @inherits Control
  *
- * The layers control gives users the ability to switch between different base layers and switch overlays on/off (check out the [detailed example](http://leafletjs.com/examples/layers-control/)). Extends `Control`.
+ * The layers control gives users the ability to switch between different base layers and switch overlays on/off (check out the [detailed example](https://leafletjs.com/examples/layers-control/)). Extends `Control`.
  *
  * @example
  *
@@ -304,7 +304,7 @@ export var Layers = Control.extend({
 		}
 	},
 
-	// IE7 bugs out if you create a radio dynamically, so you have to do it this hacky way (see http://bit.ly/PqYLBe)
+	// IE7 bugs out if you create a radio dynamically, so you have to do it this hacky way (see https://bit.ly/PqYLBe)
 	_createRadioElement: function (name, checked) {
 
 		var radioHtml = '<input type="radio" class="leaflet-control-layers-selector" name="' +

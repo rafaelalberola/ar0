@@ -48,7 +48,7 @@
     "karma-sinon": "~1.0",
     "requirejs": "~2.1"
   },
-  "homepage": "http://hilios.github.io/jQuery.countdown/",
+  "homepage": "https://hilios.github.io/jQuery.countdown/",
   "main": "dist/jquery.countdown.js",
   "name": "jquery-countdown",
   "repository": {

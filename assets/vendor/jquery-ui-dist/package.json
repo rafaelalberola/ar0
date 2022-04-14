@@ -52,7 +52,7 @@
     "rimraf": "2.5.1",
     "testswarm": "1.1.0"
   },
-  "homepage": "http://jqueryui.com",
+  "homepage": "https://jqueryui.com",
   "keywords": [],
   "license": "MIT",
   "main": "ui/widget.js",
@@ -60,27 +60,27 @@
     {
       "name": "Scott González",
       "email": "scott.gonzalez@gmail.com",
-      "url": "http://scottgonzalez.com"
+      "url": "https://scottgonzalez.com"
     },
     {
       "name": "Jörn Zaefferer",
       "email": "joern.zaefferer@gmail.com",
-      "url": "http://bassistance.de"
+      "url": "https://bassistance.de"
     },
     {
       "name": "Mike Sherov",
       "email": "mike.sherov@gmail.com",
-      "url": "http://mike.sherov.com"
+      "url": "https://mike.sherov.com"
     },
     {
       "name": "TJ VanToll",
       "email": "tj.vantoll@gmail.com",
-      "url": "http://tjvantoll.com"
+      "url": "https://tjvantoll.com"
     },
     {
       "name": "Felix Nagel",
       "email": "info@felixnagel.com",
-      "url": "http://www.felixnagel.com"
+      "url": "https://www.felixnagel.com"
     },
     {
       "name": "Alex Schmitz",

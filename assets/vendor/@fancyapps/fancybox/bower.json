@@ -10,7 +10,7 @@
     "jQuery",
     "plugin"
   ],
-  "homepage": "http://fancyapps.com/fancybox/",
+  "homepage": "https://fancyapps.com/fancybox/",
   "license": "GPL-3.0",
   "moduleType": "globals",
   "main": [

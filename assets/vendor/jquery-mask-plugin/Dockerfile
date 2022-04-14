@@ -6,7 +6,7 @@ CMD ["/sbin/my_init"]
 # Java 8 for Google's clojure compiler
 RUN \
   echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | debconf-set-selections && \
-  echo "deb http://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list.d/sbt.list && \
+  echo "deb https://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list.d/sbt.list && \
   add-apt-repository -y ppa:webupd8team/java && \
   apt-get update && \
   apt-get install -y oracle-java8-installer git unzip ruby-full && \
@@ -21,7 +21,7 @@ RUN mkdir /app/clojure-compiler
 
 # Clojure compiler
 RUN \
-  curl -O http://dl.google.com/closure-compiler/compiler-latest.zip && \
+  curl -O https://dl.google.com/closure-compiler/compiler-latest.zip && \
   unzip compiler-latest.zip -d /app/clojure-compiler && \
   chmod a+x /app/clojure-compiler && \
   rm compiler-latest.zip

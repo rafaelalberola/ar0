@@ -986,7 +986,7 @@ module.exports = function (that, target, C) {
 };
 
 },{"51":51,"99":99}],46:[function(_dereq_,module,exports){
-// fast apply, http://jsperf.lnkit.com/fast-apply/5
+// fast apply, https://jsperf.lnkit.com/fast-apply/5
 module.exports = function (fn, args, that) {
   var un = that === undefined;
   switch (args.length) {
@@ -5902,7 +5902,7 @@ var $export = _dereq_(33);
 $export($export.S, 'Math', { scale: _dereq_(64) });
 
 },{"33":33,"64":64}],287:[function(_dereq_,module,exports){
-// http://jfbastien.github.io/papers/Math.signbit.html
+// https://jfbastien.github.io/papers/Math.signbit.html
 var $export = _dereq_(33);
 
 $export($export.S, 'Math', { signbit: function signbit(x) {

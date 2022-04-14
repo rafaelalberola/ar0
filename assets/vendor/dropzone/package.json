@@ -31,12 +31,12 @@
     {
       "name": "Matias Meno",
       "email": "m@tias.me",
-      "url": "http://www.colorglare.com"
+      "url": "https://www.colorglare.com"
     }
   ],
   "deprecated": false,
   "description": "Handles drag and drop of files for you.",
-  "homepage": "http://www.dropzonejs.com",
+  "homepage": "https://www.dropzonejs.com",
   "keywords": [
     "dragndrop",
     "drag and drop",
@@ -49,7 +49,7 @@
     {
       "name": "Matias Meno",
       "email": "m@tias.me",
-      "url": "http://www.colorglare.com"
+      "url": "https://www.colorglare.com"
     }
   ],
   "name": "dropzone",

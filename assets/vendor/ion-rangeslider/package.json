@@ -36,7 +36,7 @@
   "directories": {
     "lib": "js"
   },
-  "homepage": "http://ionden.com/a/plugins/ion.rangeSlider/",
+  "homepage": "https://ionden.com/a/plugins/ion.rangeSlider/",
   "ignore": [
     ".idea",
     "_tmp",

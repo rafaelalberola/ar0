@@ -1,4 +1,4 @@
-[![AOS - Animate on scroll library](https://s32.postimg.org/ktvt59hol/aos_header.png)](http://michalsnik.github.io/aos/)
+[![AOS - Animate on scroll library](https://s32.postimg.org/ktvt59hol/aos_header.png)](https://michalsnik.github.io/aos/)
 
 [![NPM version](https://img.shields.io/npm/v/aos.svg?style=flat)](https://npmjs.org/package/aos)
 [![NPM downloads](https://img.shields.io/npm/dm/aos.svg?style=flat)](https://npmjs.org/package/aos)
@@ -18,13 +18,13 @@ If you scroll back to top, elements will animate to it's previous state and are 
 
 ---
 
-### 🚀 [Demo](http://michalsnik.github.io/aos/)
+### 🚀 [Demo](https://michalsnik.github.io/aos/)
 
 ### 🌟 Codepen Examples
-- [Different build in animations](http://codepen.io/michalsnik/pen/WxNdvq)
-- [With anchor setting in use](http://codepen.io/michalsnik/pen/jrOYVO)
-- [With anchor-placement and different easing](http://codepen.io/michalsnik/pen/EyxoNm)
-- [With simple custom animations](http://codepen.io/michalsnik/pen/WxvNvE)
+- [Different build in animations](https://codepen.io/michalsnik/pen/WxNdvq)
+- [With anchor setting in use](https://codepen.io/michalsnik/pen/jrOYVO)
+- [With anchor-placement and different easing](https://codepen.io/michalsnik/pen/EyxoNm)
+- [With simple custom animations](https://codepen.io/michalsnik/pen/WxvNvE)
 
 ---
 

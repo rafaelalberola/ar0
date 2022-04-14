@@ -21,12 +21,12 @@ and push the limits of what's possible with online maps!
 [![Build Status](https://travis-ci.org/Leaflet/Leaflet.svg?branch=master)](https://travis-ci.org/Leaflet/Leaflet)
 
  [contributors]: https://github.com/Leaflet/Leaflet/graphs/contributors
- [features]: http://leafletjs.com/#features
- [plugins]: http://leafletjs.com/plugins.html
- [well-documented]: http://leafletjs.com/reference.html "Leaflet API reference"
+ [features]: https://leafletjs.com/#features
+ [plugins]: https://leafletjs.com/plugins.html
+ [well-documented]: https://leafletjs.com/reference.html "Leaflet API reference"
  [source code]: https://github.com/Leaflet/Leaflet "Leaflet GitHub repository"
- [hosted on GitHub]: http://github.com/Leaflet/Leaflet
+ [hosted on GitHub]: https://github.com/Leaflet/Leaflet
  [contribute]: https://github.com/Leaflet/Leaflet/blob/master/CONTRIBUTING.md "A guide to contributing to Leaflet"
- [official website]: http://leafletjs.com
- [download page]: http://leafletjs.com/download.html
+ [official website]: https://leafletjs.com
+ [download page]: https://leafletjs.com/download.html
 

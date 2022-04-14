@@ -11,7 +11,7 @@ https://github.com/igorescobar/jQuery-Mask-Plugin#problems-or-questions
 [...]
 
 #### Functional `jsfiddle` exemplifying your problem: 
-You can use this one as exemple: http://jsfiddle.net/igorescobar/6pco4om7/
+You can use this one as exemple: https://jsfiddle.net/igorescobar/6pco4om7/
 
 #### Describe de problem depth:
 [...]

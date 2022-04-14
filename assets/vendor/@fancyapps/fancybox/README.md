@@ -3,7 +3,7 @@
 jQuery lightbox script for displaying images, videos and more.
 Touch enabled, responsive and fully customizable.
 
-See the [project page](http://fancyapps.com/fancybox/3/) for documentation and a demonstration.
+See the [project page](https://fancyapps.com/fancybox/3/) for documentation and a demonstration.
 
 Follow [@thefancyapps](//twitter.com/thefancyapps) for updates.
 
@@ -38,10 +38,10 @@ Follow [@thefancyapps](//twitter.com/thefancyapps) for updates.
 
 ## License
 
-fancyBox is licensed under the [GPLv3](http://choosealicense.com/licenses/gpl-3.0) license for all open source applications.
+fancyBox is licensed under the [GPLv3](https://choosealicense.com/licenses/gpl-3.0) license for all open source applications.
 A commercial license is required for all commercial applications (including sites, themes and apps you plan to sell).
 
-[Read more about fancyBox license](http://fancyapps.com/fancybox/3/#license).
+[Read more about fancyBox license](https://fancyapps.com/fancybox/3/#license).
 
 ## Bugs and feature requests
 
@@ -59,4 +59,4 @@ Please try to be as detailed as possible in your report.
 
 Feature requests are welcome. Please look for existing ones and use GitHub's "reactions" feature to vote.
 
-Please do not use the issue tracker for personal support requests - use Stack Overflow ([fancybox-3](http://stackoverflow.com/questions/tagged/fancybox-3) tag) instead.
+Please do not use the issue tracker for personal support requests - use Stack Overflow ([fancybox-3](https://stackoverflow.com/questions/tagged/fancybox-3) tag) instead.

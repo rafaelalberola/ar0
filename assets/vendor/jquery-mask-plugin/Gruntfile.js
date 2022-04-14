@@ -23,13 +23,13 @@ module.exports = function(grunt) {
       all: {
         options: {
           urls: [
-            'http://localhost:9001/test/test-for-jquery-1.11.1.html',
-            'http://localhost:9001/test/test-for-jquery-1.7.2.html',
-            'http://localhost:9001/test/test-for-jquery-1.8.3.html',
-            'http://localhost:9001/test/test-for-jquery-1.9.1.html',
-            'http://localhost:9001/test/test-for-jquery-2.1.1.html',
-            'http://localhost:9001/test/test-for-jquery-3.0.0.html',
-            'http://localhost:9001/test/test-for-zepto.html'
+            'https://localhost:9001/test/test-for-jquery-1.11.1.html',
+            'https://localhost:9001/test/test-for-jquery-1.7.2.html',
+            'https://localhost:9001/test/test-for-jquery-1.8.3.html',
+            'https://localhost:9001/test/test-for-jquery-1.9.1.html',
+            'https://localhost:9001/test/test-for-jquery-2.1.1.html',
+            'https://localhost:9001/test/test-for-jquery-3.0.0.html',
+            'https://localhost:9001/test/test-for-zepto.html'
           ]
         }
       }

@@ -1,6 +1,6 @@
 # clipboard.js
 
-[![Build Status](http://img.shields.io/travis/zenorocha/clipboard.js/master.svg?style=flat)](https://travis-ci.org/zenorocha/clipboard.js)
+[![Build Status](https://img.shields.io/travis/zenorocha/clipboard.js/master.svg?style=flat)](https://travis-ci.org/zenorocha/clipboard.js)
 ![Killing Flash](https://img.shields.io/badge/killing-flash-brightgreen.svg?style=flat)
 
 > Modern copy to clipboard. No Flash. Just 3kb gzipped.

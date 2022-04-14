@@ -18,15 +18,15 @@ This is the best way to contribute to jQuery core. Please read through the full 
 
 ### Forum and IRC
 
-The jQuery core development team frequently tracks posts on the [jQuery Development Forum](http://forum.jquery.com/developing-jquery-core). If you have longer posts or questions please feel free to post them there. If you think you've found a bug please [file it in the bug tracker](#How-to-Report-Bugs).
+The jQuery core development team frequently tracks posts on the [jQuery Development Forum](https://forum.jquery.com/developing-jquery-core). If you have longer posts or questions please feel free to post them there. If you think you've found a bug please [file it in the bug tracker](#How-to-Report-Bugs).
 
-Additionally most of the jQuery core development team can be found in the [#jquery-dev](http://webchat.freenode.net/?channels=jquery-dev) IRC channel on irc.freenode.net.
+Additionally most of the jQuery core development team can be found in the [#jquery-dev](https://webchat.freenode.net/?channels=jquery-dev) IRC channel on irc.freenode.net.
 
 ### Weekly Status Meetings
 
 Every week (unless otherwise noted) the jQuery core dev team has a meeting to discuss the progress of current work and to bring forward possible new blocker bugs for discussion.
 
-The meeting is held in the [#jquery-meeting](http://webchat.freenode.net/?channels=jquery-meeting) IRC channel on irc.freenode.net at [Noon EST](http://www.timeanddate.com/worldclock/fixedtime.html?month=1&day=17&year=2011&hour=12&min=0&sec=0&p1=43) on Mondays.
+The meeting is held in the [#jquery-meeting](https://webchat.freenode.net/?channels=jquery-meeting) IRC channel on irc.freenode.net at [Noon EST](https://www.timeanddate.com/worldclock/fixedtime.html?month=1&day=17&year=2011&hour=12&min=0&sec=0&p1=43) on Mondays.
 
 [Past Meeting Notes](https://docs.google.com/document/d/1MrLFvoxW7GMlH9KK-bwypn77cC98jUnz7sMW1rg_TP4/edit?hl=en)
 
@@ -37,7 +37,7 @@ The meeting is held in the [#jquery-meeting](http://webchat.freenode.net/?channe
 
 Many bugs reported to our bug tracker are actually bugs in user code, not in jQuery code. Keep in mind that just because your code throws an error and the console points to a line number inside of jQuery, this does *not* mean the bug is a jQuery bug; more often than not, these errors result from providing incorrect arguments when calling a jQuery function.
 
-If you are new to jQuery, it is usually a much better idea to ask for help first in the [Using jQuery Forum](http://forum.jquery.com/using-jquery) or the [jQuery IRC channel](http://webchat.freenode.net/?channels=%23jquery). You will get much quicker support, and you will help avoid tying up the jQuery team with invalid bug reports. These same resources can also be useful if you want to confirm that your bug is indeed a bug in jQuery before filing any tickets.
+If you are new to jQuery, it is usually a much better idea to ask for help first in the [Using jQuery Forum](https://forum.jquery.com/using-jquery) or the [jQuery IRC channel](https://webchat.freenode.net/?channels=%23jquery). You will get much quicker support, and you will help avoid tying up the jQuery team with invalid bug reports. These same resources can also be useful if you want to confirm that your bug is indeed a bug in jQuery before filing any tickets.
 
 
 ### Disable any browser extensions
@@ -47,7 +47,7 @@ Make sure you have reproduced the bug with all browser extensions and add-ons di
 
 ### Try the latest version of jQuery
 
-Bugs in old versions of jQuery may have already been fixed. In order to avoid reporting known issues, make sure you are always testing against the [latest build](http://code.jquery.com/jquery.js).
+Bugs in old versions of jQuery may have already been fixed. In order to avoid reporting known issues, make sure you are always testing against the [latest build](https://code.jquery.com/jquery.js).
 
 ### Try an older version of jQuery
 
@@ -55,11 +55,11 @@ Sometimes, bugs are introduced in newer versions of jQuery that do not exist in 
 
 ### Reduce, reduce, reduce!
 
-When you are experiencing a problem, the most useful thing you can possibly do is to [reduce your code](http://webkit.org/quality/reduction.html) to the bare minimum required to reproduce the issue. This makes it *much* easier to isolate and fix the offending code. Bugs that are reported without reduced test cases take on average 9001% longer to fix than bugs that are submitted with them, so you really should try to do this if at all possible.
+When you are experiencing a problem, the most useful thing you can possibly do is to [reduce your code](https://webkit.org/quality/reduction.html) to the bare minimum required to reproduce the issue. This makes it *much* easier to isolate and fix the offending code. Bugs that are reported without reduced test cases take on average 9001% longer to fix than bugs that are submitted with them, so you really should try to do this if at all possible.
 
 ## jQuery Core Style Guide
 
-See: [jQuery Core Style Guide](http://docs.jquery.com/JQuery_Core_Style_Guidelines)
+See: [jQuery Core Style Guide](https://docs.jquery.com/JQuery_Core_Style_Guidelines)
 
 ## Tips For Bug Patching
 
@@ -76,7 +76,7 @@ To test the plugin you will need:
 
 ### Build a Local Copy of the plugin
 
-Create a fork of the plugin repo on github at http://github.com/jquery/jquery-migrate
+Create a fork of the plugin repo on github at https://github.com/jquery/jquery-migrate
 
 Change directory to your web root directory, whatever that might be:
 
@@ -114,7 +114,7 @@ Run the Grunt tools:
 $ grunt && grunt watch
 ```
 
-Now open the jQuery test suite in a browser at http://localhost/test. If there is a port, be sure to include it.
+Now open the jQuery test suite in a browser at https://localhost/test. If there is a port, be sure to include it.
 
 Success! You just built and tested jQuery!
 
@@ -149,7 +149,7 @@ Open up the corresponding /test/unit/?????.js and add the initial failing unit t
 
 Next, open the module files and make your changes
 
-Run http://localhost/test --> **ALL TESTS MUST PASS**
+Run https://localhost/test --> **ALL TESTS MUST PASS**
 
 Once you're satisfied with your patch...
 
@@ -192,9 +192,9 @@ By default the plugin runs against the current (jquery-git WIP) version of jQuer
 
 Example:
 
-http://localhost/jquery-migrate/test/?jquery=1.7.2
+https://localhost/jquery-migrate/test/?jquery=1.7.2
 
-This will run the plugin with version 1.7.2 of jQuery, taken from http://code.jquery.com/jquery-1.7.2.js.
+This will run the plugin with version 1.7.2 of jQuery, taken from https://code.jquery.com/jquery-1.7.2.js.
 
 **ALWAYS RUN THE FULL TEST SUITE BEFORE COMMITTING AND PUSHING A PATCH!**
 

@@ -13,7 +13,7 @@ import {toBounds} from '../../geometry/Bounds';
  * @example
  *
  * ```js
- * var nexrad = L.tileLayer.wms("http://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r.cgi", {
+ * var nexrad = L.tileLayer.wms("https://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r.cgi", {
  * 	layers: 'nexrad-n0r-900913',
  * 	format: 'image/png',
  * 	transparent: true,
@@ -28,7 +28,7 @@ export var TileLayerWMS = TileLayer.extend({
 	// @aka TileLayer.WMS options
 	// If any custom options not documented here are used, they will be sent to the
 	// WMS server as extra parameters in each request URL. This can be useful for
-	// [non-standard vendor WMS parameters](http://docs.geoserver.org/stable/en/user/services/wms/vendor.html).
+	// [non-standard vendor WMS parameters](https://docs.geoserver.org/stable/en/user/services/wms/vendor.html).
 	defaultWmsParams: {
 		service: 'WMS',
 		request: 'GetMap',

@@ -31,7 +31,7 @@ https://igorescobar.github.io/jQuery-Mask-Plugin/
   * Clear the field if it not matches support.
 
 ## Want to buy me a beer? :heart_eyes:
-http://paypal.me/igorcescobar
+https://paypal.me/igorcescobar
 
 ## Install it via Package Managers
 ### Bower
@@ -47,24 +47,24 @@ http://paypal.me/igorcescobar
 ### CDNjs
 https://cdnjs.com/libraries/jquery.mask
 ### JSDelivr
-http://www.jsdelivr.com/projects/jquery.mask
+https://www.jsdelivr.com/projects/jquery.mask
 
 ## RubyGems
 ```ruby
-gem 'jquery_mask_rails' # more details at http://bit.ly/jquery-mask-gem
+gem 'jquery_mask_rails' # more details at https://bit.ly/jquery-mask-gem
 ```
 
 ## Tutorials
 ### English
-  * [Masks with jQuery Mask Plugin](http://bit.ly/masks-with-jquery-mask-plugin)
-  * [Using jQuery Mask Plugin With Zepto.js](http://bit.ly/using-jquery-mask-plugin-with-zeptojs)
+  * [Masks with jQuery Mask Plugin](https://bit.ly/masks-with-jquery-mask-plugin)
+  * [Using jQuery Mask Plugin With Zepto.js](https://bit.ly/using-jquery-mask-plugin-with-zeptojs)
 
 ### Portuguese
-  * [Mascaras com JQuery Mask Plugin](http://bit.ly/mascaras-com-jquery-mask-plugin)
-  * [Mascara Javascript para os novos telefones de São Paulo](http://bit.ly/mascara-javascript-para-os-novos-telefones-de-sao-paulo)
+  * [Mascaras com JQuery Mask Plugin](https://bit.ly/mascaras-com-jquery-mask-plugin)
+  * [Mascara Javascript para os novos telefones de São Paulo](https://bit.ly/mascara-javascript-para-os-novos-telefones-de-sao-paulo)
 
 ### Fun (or not) facts
-  * [I’ve had the chance to troll Donald Trump. But I didn’t.](http://www.igorescobar.com/blog/2016/08/21/ive-the-chance-to-troll-donald-trump-but-i-didnt/)
+  * [I’ve had the chance to troll Donald Trump. But I didn’t.](https://www.igorescobar.com/blog/2016/08/21/ive-the-chance-to-troll-donald-trump-but-i-didnt/)
 
 ## Compatibility
 jQuery Mask Plugin has been tested with jQuery 1.7+ on all major browsers:
@@ -107,7 +107,7 @@ Before opening a new [issue](https://github.com/igorescobar/jQuery-Mask-Plugin/i
 #### [E-mail mask?](https://github.com/igorescobar/jQuery-Mask-Plugin/issues/582)
 
 ## Bugs?
-Did you read our [docs](https://igorescobar.github.io/jQuery-Mask-Plugin/docs.html)? Yes? Cool! So now... make sure that you have a *functional* [jsfiddle](http://jsfiddle.net/) exemplifying your problem and open an [issue](https://github.com/igorescobar/jQuery-Mask-Plugin/issues) for us. Don't know how to do it? Use this [fiddle example](http://jsfiddle.net/igorescobar/6pco4om7/).
+Did you read our [docs](https://igorescobar.github.io/jQuery-Mask-Plugin/docs.html)? Yes? Cool! So now... make sure that you have a *functional* [jsfiddle](https://jsfiddle.net/) exemplifying your problem and open an [issue](https://github.com/igorescobar/jQuery-Mask-Plugin/issues) for us. Don't know how to do it? Use this [fiddle example](https://jsfiddle.net/igorescobar/6pco4om7/).
 
 ## Contributing
  * **Bug Reporting**: Yes! You can contribute opening [issues](https://github.com/igorescobar/jQuery-Mask-Plugin/issues)!
@@ -118,7 +118,7 @@ Did you read our [docs](https://igorescobar.github.io/jQuery-Mask-Plugin/docs.ht
  * **Donating**: Hey, now that you don't need to worry about masks again... buy me a coffee, beer or a PlayStation 4 (Xbox One also accepted!) :o)
 
 ### Unit Tests
-We use [QUnit](http://qunitjs.com/) and [GruntJS](http://gruntjs.com/). To run our test suit is just run: ```grunt test``` in your console or you can open those ```test-for*.html``` files inside of our ```test/``` folder.
+We use [QUnit](https://qunitjs.com/) and [GruntJS](https://gruntjs.com/). To run our test suit is just run: ```grunt test``` in your console or you can open those ```test-for*.html``` files inside of our ```test/``` folder.
 
 In case you're familiar with [Docker](https://www.docker.com/) here is how you can use it:
 ```bash

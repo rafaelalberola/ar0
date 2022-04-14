@@ -8,7 +8,7 @@ import * as Browser from '../../core/Browser';
 // corresponding to the class name passed. For example, using 'line' will return
 // an instance of [SVGLineElement](https://developer.mozilla.org/docs/Web/API/SVGLineElement).
 export function svgCreate(name) {
-	return document.createElementNS('http://www.w3.org/2000/svg', name);
+	return document.createElementNS('https://www.w3.org/2000/svg', name);
 }
 
 // @function pointsToPath(rings: Point[], closed: Boolean): String

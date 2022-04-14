@@ -832,7 +832,7 @@ Animation code in Leaflet had undergone a major rewrite (main PR: [#2382](https:
 
 ### Misc. performance improvements
 
-* Significantly [improved](http://jsperf.com/leaflet-parsefloat-in-latlng/2) `LatLng` creation performance (8x).
+* Significantly [improved](https://jsperf.com/leaflet-parsefloat-in-latlng/2) `LatLng` creation performance (8x).
 * Improved performance of layer objects construction.
 * Significantly improved `FeatureGroup` (and correspondingly `GeoJSON`) layer adding and events performance (about 10x) by implementing a much better event propagation mechanism. [#2311](https://github.com/Leaflet/Leaflet/pull/2311)
 * Improved Leaflet events and DOM events memory footprint.
@@ -1184,12 +1184,12 @@ Note tha we skipped 0.7.6 version for which we accidentally published a broken b
 
 ### Improvements
 
-* Added ability to pass zoom/pan animation options to `setMaxBounds` (by [@davidjb](http://git.io/djb)). [#1834](https://github.com/Leaflet/Leaflet/pull/1834)
+* Added ability to pass zoom/pan animation options to `setMaxBounds` (by [@davidjb](https://git.io/djb)). [#1834](https://github.com/Leaflet/Leaflet/pull/1834)
 * Added `MultiPolyline` and `MultiPolygon` `getLatLngs` method. [#1839](https://github.com/Leaflet/Leaflet/issues/1839)
 
 ### Dev Workflow improvements
 
-* Leaflet builds (*.js files in the `dist` folder) were removed from the repo and are now done automatically on each commit for `master` and `stable` branches by [Travis CI](travis-ci.org/Leaflet/Leaflet). The download links are on the [Leaflet download page](http://leafletjs.com/download.html).
+* Leaflet builds (*.js files in the `dist` folder) were removed from the repo and are now done automatically on each commit for `master` and `stable` branches by [Travis CI](travis-ci.org/Leaflet/Leaflet). The download links are on the [Leaflet download page](https://leafletjs.com/download.html).
 
 ## 0.6.2 (2013-06-28)
 
@@ -1290,8 +1290,8 @@ Note tha we skipped 0.7.6 version for which we accidentally published a broken b
 
 #### Development workflow improvements
 
- * Switched from Jasmine to [Mocha](http://visionmedia.github.io/mocha/) with Expect.js (matchers) and Sinon (spies) for tests (by [@tmcw](https://github.com/tmcw) & [@jfirebaugh](https://github.com/jfirebaugh)). [#1479](https://github.com/Leaflet/Leaflet/issues/1479)
- * Added [Karma](http://karma-runner.github.io) integration for running tests in a headless PhantomJS instance and code coverage reporting (by [@edjafarov](https://github.com/edjafarov)). [#1326](https://github.com/Leaflet/Leaflet/issues/1326) [#1340](https://github.com/Leaflet/Leaflet/pull/1340)
+ * Switched from Jasmine to [Mocha](https://visionmedia.github.io/mocha/) with Expect.js (matchers) and Sinon (spies) for tests (by [@tmcw](https://github.com/tmcw) & [@jfirebaugh](https://github.com/jfirebaugh)). [#1479](https://github.com/Leaflet/Leaflet/issues/1479)
+ * Added [Karma](https://karma-runner.github.io) integration for running tests in a headless PhantomJS instance and code coverage reporting (by [@edjafarov](https://github.com/edjafarov)). [#1326](https://github.com/Leaflet/Leaflet/issues/1326) [#1340](https://github.com/Leaflet/Leaflet/pull/1340)
  * Added [Travis CI integration](https://travis-ci.org/Leaflet/Leaflet) for linting and running tests for each commit and pull request automatically (by [@edjafarov](https://github.com/edjafarov)). [#1336](https://github.com/Leaflet/Leaflet/issues/1336)
  * Significantly improved test coverage
  * Added compatibility with lazy evaluation scripts (by [@kristerkari](https://github.com/kristerkari)). [#1288](https://github.com/Leaflet/Leaflet/issues/1288) [#1607](https://github.com/Leaflet/Leaflet/issues/1607) [#1288](https://github.com/Leaflet/Leaflet/issues/1288)
@@ -1420,7 +1420,7 @@ Be sure to read through these changes to avoid any issues when upgrading from ol
  * Added **retina support for markers** (through `Icon` `iconRetinaUrl` and `shadowRetinaUrl` options) (by [@danzel](https://github.com/danzel)). [#1048](https://github.com/Leaflet/Leaflet/issues/1048) [#1174](https://github.com/Leaflet/Leaflet/pull/1174)
  * Added retina-sized default marker icon in addition to standard one (along with its SVG source and with some subtle design improvements) (by [@danzel](https://github.com/danzel)). [#1048](https://github.com/Leaflet/Leaflet/issues/1048) [#1174](https://github.com/Leaflet/Leaflet/pull/1174)
  * Improved vectors updating/removing performance on Canvas backend (by [@danzel](https://github.com/danzel)). [#961](https://github.com/Leaflet/Leaflet/pull/961)
- * Cut total images size from 10KB to 3.2KB with [Yahoo Smush.it](http://www.smushit.com/ysmush.it/). Thanks to Peter Rounce for suggestion.
+ * Cut total images size from 10KB to 3.2KB with [Yahoo Smush.it](https://www.smushit.com/ysmush.it/). Thanks to Peter Rounce for suggestion.
 
 #### API improvements
 

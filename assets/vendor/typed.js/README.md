@@ -6,7 +6,7 @@
 
 <img src="https://raw.githubusercontent.com/mattboldt/typed.js/master/logo-cropped.png" width="450px" title="Typed.js" />
 
-### [Live Demo](http://www.mattboldt.com/demos/typed-js/) | [View All Demos](http://mattboldt.github.io/typed.js/) | [View Full Docs](http://mattboldt.github.io/typed.js/docs) | [mattboldt.com](http://www.mattboldt.com)
+### [Live Demo](https://www.mattboldt.com/demos/typed-js/) | [View All Demos](https://mattboldt.github.io/typed.js/) | [View Full Docs](https://mattboldt.github.io/typed.js/docs) | [mattboldt.com](https://www.mattboldt.com)
 
 Typed.js is a library that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.
 
@@ -64,11 +64,11 @@ https://git.market/
 
 https://commando.io/
 
-http://testdouble.com/agency.html
+https://testdouble.com/agency.html
 
 https://www.capitalfactory.com/
 
-http://www.maxcdn.com/
+https://www.maxcdn.com/
 
 https://www.powerauth.com/
 
@@ -320,8 +320,8 @@ var typed = new Typed('.element', {
 
 ## end
 
-Thanks for checking this out. If you have any questions, I'll be on [Twitter](http://www.twitter.com/atmattb).
+Thanks for checking this out. If you have any questions, I'll be on [Twitter](https://www.twitter.com/atmattb).
 
 If you're using this, let me know! I'd love to see it.
 
-It would also be great if you mentioned me or my website somewhere. [www.mattboldt.com](http://www.mattboldt.com)
+It would also be great if you mentioned me or my website somewhere. [www.mattboldt.com](https://www.mattboldt.com)

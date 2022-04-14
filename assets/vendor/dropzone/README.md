@@ -1,11 +1,11 @@
-<img alt="Dropzone.js" src="http://www.dropzonejs.com/images/new-logo.svg" />
+<img alt="Dropzone.js" src="https://www.dropzonejs.com/images/new-logo.svg" />
 
 Dropzone.js is a light weight JavaScript library that turns an HTML element into a dropzone.
 This means that a user can drag and drop a file onto it, and the file gets uploaded to the server via AJAX.
 
 * * *
 
-_If you want support, please use [stackoverflow](http://stackoverflow.com/) with the `dropzone.js` tag and not the
+_If you want support, please use [stackoverflow](https://stackoverflow.com/) with the `dropzone.js` tag and not the
 GitHub issues tracker. Only post an issue here if you think you discovered a bug or have a feature request._
 
 * * *
