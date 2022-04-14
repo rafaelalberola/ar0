@@ -23575,9 +23575,25 @@ span.number-team {
     margin-right: 5px;
 }
 
-.work-description, .work-badge, .work-date, .tool, .card {
+.logo-card-social {
+    margin-left: -10px;
+}
+
+.work-description, .work-badge, .work-date, .tool {
     cursor: default;
     font-size: 14px;
+}
+
+.bg-linkedin {
+    background: #2C61B6;
+}
+
+.bg-github {
+    background: #3B0679;
+}
+
+.bg-behance {
+    background: #2B64EE;
 }
 
 .work-date {
@@ -23939,7 +23955,7 @@ img {
 }
 
 .work.last {
-    margin-bottom: 150px !important;
+    margin-bottom: 50px !important;
 }
 
 .case-hero-img {
