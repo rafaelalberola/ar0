@@ -24176,3 +24176,11 @@ img {
 .case-arcano .header, .case-caser .header {
     background: white !important;
 }
+
+
+
+a:not([href*='rafaelalberola.com']):not([href^='#']):not([href^='/']):not(.other-sites .card):not(.btn-icon):not(.tool.card):after {
+    content: "↗";
+    padding: 0 3px;
+    font-size: 0.85rem;
+}
