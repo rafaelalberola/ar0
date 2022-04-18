@@ -24181,7 +24181,7 @@ ul > li:not(.navbar-nav-item) {
     margin-bottom: 1rem;
 }
 
-a:not([href*='rafaelalberola.com']):not([href^='#']):not([href^='/']):not(.other-sites .card):not(.btn-icon):not(.profile-signature__link):not(.tool.card):after {
+a:not([href*='rafaelalberola.com']):not([href^='#']):not([href^='/']):not(.social-card):not(.recent-works):not(.btn-icon):not(.profile-signature__link):not(.tool.card):after {
     content: "↗";
     padding: 0 3px;
     font-size: 0.85rem;
