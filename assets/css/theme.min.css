@@ -24187,7 +24187,7 @@ a:not([href*='rafaelalberola.com']):not([href^='#']):not([href^='/']):not(.socia
     font-size: 0.85rem;
 }
 
-.external-link {
+.external-link:after {
     content: "↗";
     padding: 0 0 0 3px;
 }
