@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>Expenses Wallet In-App Landing | Rafael Alberola - Product Designer</title>
+
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:title" content="Rafael Alberola | Product Designer">
+    <meta property="og:description" content="UX/UI Designer with over four years experience in delivering thoughtful design for digital products, crafting user experiences and helping businesses expand.">
+    <meta property="og:image" content="./assets/share-social/share-caser.jpg">
+    <meta property="og:url" content="https://rafaelalberola.com">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon-96x96-factorial.png">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="./assets/vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+    <link rel="stylesheet" href="./assets/vendor/dzsparallaxer/dzsparallaxer.css">
+    <link rel="stylesheet" href="./assets/vendor/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+
+    <!-- CSS Front Template -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
+</head>
+
+
+<body class="case-factorial">
+
+    <!-- Quick Read Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <!-- Header -->
+
+                <div class="modal-header">
+                    <p class="wave" style="font-size: 2.5rem;">💡</p>
+                    <h4 id="addNewAddressModalTitle" class="modal-title">Quick tip</h4>
+
+                </div>
+                <!-- End Header -->
+
+                <!-- Body -->
+                <div class="modal-body">
+
+                    <!-- Row -->
+                    <div class="row">
+
+                        <div class="col-lg-12 mt-3 mb-4">
+                            <p>
+                                Case studies can be really dense. Have a look at the <b>Overview</b> section to understand the project in just a few minutes.</p>
+                        </div>
+
+                    </div>
+                    <!-- End Row -->
+
+                    <div class="row d-flex justify-content-center">
+
+                        <div class="col-6 pl-2 pr-2 pb-0">
+                            <button type="button" class="btn btn-white btn-block" data-dismiss="modal">No, thanks!</button>
+                        </div>
+
+                        <div class="col-6 pl-2 pr-2 pb-0">
+                            <a href="#overviewSection"><button id="closemodal" type="button" class="btn btn-primary btn-block" href="#worksSection">Read now</button></a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- End Body -->
+            </div>
+        </div>
+    </div>
+    <!-- End Quick Read Modal -->
+
+    <!-- ========== HEADER ========== -->
+    <header id="header" class="header header-bg-transparent-lg header-sticky-top-lg bg-white">
+        <div id="logoAndNav" class="container">
+            <div class="header-section header-floating-inner mx-lg-n3">
+                <!-- Nav -->
+                <nav class="js-mega-menu navbar navbar-expand-lg">
+                    <!-- Logo -->
+                    <a href="./index.html" aria-label="Rafael Alberola">
+                        <div class="text-logo">
+                            <span class="name-logo mb-1">Rafael Alberola</span>
+                            <span class="role-logo">Product Designer</span>
+                        </div>
+                    </a>
+                    <!-- End Logo -->
+
+                    <!-- Responsive Toggle Button -->
+                    <button type="button" class="case-factorial navbar-toggler btn btn-icon btn-sm rounded-circle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+        <span class="navbar-toggler-default">
+          <svg width="14" height="14" viewBox="0 0 18 18" xmlns="https://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z"/>
+          </svg>
+        </span>
+        <span class="navbar-toggler-toggled">
+          <svg width="14" height="14" viewBox="0 0 18 18" xmlns="https://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z"/>
+          </svg>
+        </span>
+      </button>
+                    <!-- End Responsive Toggle Button -->
+
+                    <!-- Navigation -->
+                    <div id="navBar" class="collapse navbar-collapse navbar-nav-wrap-collapse">
+                        <div class="navbar-body header-abs-top-inner">
+                            <ul class="js-scroll-nav navbar-nav header-navbar-nav">
+
+                                <li class="navbar-nav-item">
+                                    <a class="nav-link recent-works" href="./#worksSection">Featured Works</a>
+                                </li>
+                                <li class="navbar-nav-item">
+                                    <a class="nav-link" href="#contactSection">Contact</a>
+                                </li>
+                                <li class="navbar-nav-item download-cv">
+                                    <a style="color: #141414; font-weight: 600;" class="nav-link external-link" href="https://bit.ly/rafael-alberola-cv" target="_blank">Download CV</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navigation -->
+                </nav>
+                <!-- End Nav -->
+            </div>
+        </div>
+    </header>
+    <!-- ========== END HEADER ========== -->
+
+    <!-- ========== MAIN ========== -->
+    <main id="content" role="main" class="case-study case-factorial">
+        <!-- Hero Section -->
+
+        <div data-aos="fade-up" class="position-relative border-hero">
+            <div class="container hero">
+                <div class="row justify-content-lg-between align-items-lg-center pt-lg-10">
+                    <div class="col-lg-6">
+                        <!-- Info -->
+                        <div class="mb-5 title-case">
+                            <h1 class="display-4 mb-4" style="letter-spacing: -1.5px !important">Expenses Wallet <br/>In-App Landing</h1>
+                            <p class="lead">Growth hacked and raised conversion of accounts <br class="hide-sm" />and cards created through design iterations.</p>
+                        </div>
+                        <!-- End Info -->
+
+                        <!-- Interactive contact -->
+                        <div class="d-none profile-signature profile-signature--contact mb-4">
+                            <a class="profile-signature__link" href="mailto:alberolarafa0@gmail.com">
+                                <div class="profile-img">
+                                    <div class="img img-container">
+                                        <img class="avatar" src="./assets/img/myself/avatar-rafa.png" alt="Rafael Alberola - UX/UI Product Designer">
+                                    </div>
+                                    <div class="estimate-indicator--circle indicator--green-gradient"></div>
+                                </div>
+                                <div class="name">
+                                    <p class="mb-0 small text-dark"><strong>Reply time:</strong> within 1 hour</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Interactive Contact -->
+                    </div>
+
+                    <!-- Gallery -->
+                    <div class="col-lg-6 bottom-0 right-0 case-hero-img-container">
+                        <div class="row align-items-end mx-n2 case-hero-img">
+                            <div class="col px-2 mb-5">
+                                <div class="mb-3" data-aos="fade-up">
+                                    <img class="img-fluid shadow-md rounded-card rounded" src="./assets/svg/components/factorial/factorial-component-1.png" alt="Factorial Component 1">
+                                </div>
+                                <div class="mb-3" data-aos="fade-up" data-aos-delay="100">
+                                    <img class="img-fluid shadow-md bg-white rounded" src="./assets/svg/components/factorial/factorial-component-2.png" alt="Factorial Component 2">
+                                </div>
+                            </div>
+
+                            <div class="col px-2">
+                                <div class="mb-3" data-aos="fade-up" data-aos-delay="200">
+                                    <img class="img-fluid shadow-md bg-white rounded" src="./assets/svg/components/factorial/factorial-component-3.png" alt="Factorial Component 3">
+                                </div>
+                                <div class="mb-3" data-aos="fade-up" data-aos-delay="300">
+                                    <img class="img-fluid shadow-md bg-white rounded" src="./assets/svg/components/factorial/factorial-component-4.png" alt="Factorial Component 4">
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- End Gallery -->
+                </div>
+            </div>
+        </div>
+        <!-- End Hero Section -->
+
+
+        <div id="overviewSection"></div>
+
+
+
+
+        <!-- Overwiew Section -->
+
+
+        <div class="container">
+
+            <div class="overview-title col-lg-6 col-sm-12 m-auto p-0 aos-init aos-animate mb-5" data-aos="fade-up">
+                <h2>Overview</h2>
+            </div>
+
+
+            <div class="nugget context col-lg-6 col-sm-12 m-auto p-5 aos-init aos-animate mb-5" data-aos="fade-up">
+
+                <h3>Context</h3>
+
+                <div class="client mb-5">
+                    <h4>Company description</h4>
+                    <p>Factorial is an all-in-one HR software that allows companies converting never-ending manual processes into integrated and automated ones. It offers a solution for managing company expenses: Factorial Expenses.</p>
+                </div>
+
+                <div class="project-summary">
+                    <h4>Initial background</h4>
+                    <p>Factorial released Factorial Cards in April 2022. These allow comapanies automate their expenses. Customers need to create first an Expenses Wallet account, which provides them with an IBAN, so they can add funds to their wallet and
+                        issue new cards.</p>
+                </div>
+
+            </div>
+
+            <div class="nugget context col-lg-6 col-sm-12 m-auto p-5 aos-init aos-animate" data-aos="fade-up">
+
+                <h3>Problem Solving</h3>
+
+
+                <div class="project-summary mb-5">
+                    <h4>Goal <span class="subtitle">What</span></h4>
+
+                    <p> We needed to <strong>raise conversion</strong> of <i>Expenses Wallet</i> accounts and <i>Factorial Cards</i> created, as well as <strong>to decrease the number of drops</strong> when customers started creating an Expenses Wallet account.
+                    </p>
+                </div>
+
+                <div class="project-summary mb-5">
+                    <h4>Problem <span class="subtitle">Why</span></h4>
+
+
+                    <p>From April until August (2022), <strong>5 months after the feature had been released</strong>, the amount of customers creating cards was not as initially expected. We needed to spot what was causing customers not to convert, in order
+                        to fix it and reach the OKRs established by the team, which ultimately would let us start <strong>providing value for customers and stakeholders</strong>:</p>
+                    <ul>
+                        <li>Amount of Expenses Wallet accounts created </li>
+                        <li>Amount of Factorial Cards created</li>
+                        <li>Amount of Factorial Cards active</li>
+                        <li>Amount of € managed through Factorial Cards</li>
+                    </ul>
+                </div>
+
+                <div class="project-summary">
+                    <h4>Solution <span class="subtitle">How</span></h4>
+
+                    <p>For this project, I took the role of <strong>Product Design</strong> and <strong>Product Management</strong>. After overviewing the problem, I decided to structure the workflow into a 5-steps process:</p>
+                    <ol>
+                        <li>Firstly, I did a <strong>funnel exploration</strong> to have an overview of the problem and <strong> generate some hypotheses</strong>.</li>
+                        <li>Secondly, I conducted some <strong>qualitative research</strong> on a small group of customers, to understand better why customers may be dropping. </li>
+                        <li>Thirdly, I <strong>debriefed</strong> the information from the interviews, to gather <strong>common key painpoints</strong> and some <strong>key learnings</strong> which, in turn, helped me <strong>validate the initial hypotheses</strong>.</li>
+                        <li>Fourthly, I conducted a <strong>benchmarking</strong> among the main competitors, to see the way they were displaying the information.</li>
+                        <li>Fifthly, I started writing the <strong>Product Requirements Definition</strong>, and chose a <strong>user psychology framework</strong> to raoise conversion through design elements. I also defined <strong>success metrics</strong>                            measure and track impact, and wrote <strong>user stories & Acceptance Criteria</strong>, to ensure design quality in every case scenario.</li>
+                        <li>Finally, I started working on the <strong>design</strong> and all the graphic resources. I also defined the <strong>Motion UI elements</strong> and <strong>interactive animations</strong>.</li>
+                    </ol>
+
+                </div>
+
+            </div>
+
+
+            <div class="nugget context col-lg-6 col-sm-12 m-auto p-5 aos-init aos-animate" data-aos="fade-up">
+
+                <h3>Project info</h3>
+
+                <div class="role">
+
+                    <h4>Areas of work</h4>
+
+                    <div class="list-of-roles mb-5">
+
+                        <div class="role-badge transition-3d-hover">Product Design</div>
+                        <div class="role-badge transition-3d-hover">Research & Discovery</div>
+                        <div class="role-badge transition-3d-hover">Benchmarking</div>
+                        <div class="role-badge transition-3d-hover">Product Marketing</div>
+                        <div class="role-badge transition-3d-hover">Product Requirements Definition</div>
+                        <div class="role-badge transition-3d-hover">Success Metrics Definition</div>
+
+                    </div>
+
+                </div>
+
+                <div class="team mb-5">
+
+                    <h4>Team structure</h4>
+
+                    <div class="list-of-people">
+
+                        <div class="team-badge transition-3d-hover"> <span class="number-team">1</span> Product Manager</div>
+                        <div class="team-badge transition-3d-hover"> <span class="number-team">1</span> Product Designer</div>
+                        <div class="team-badge transition-3d-hover"> <span class="number-team">1</span> Engineer</div>
+                        <div class="team-badge transition-3d-hover"> <span class="number-team">1</span> Product Marketing Manager</div>
+
+                    </div>
+
+                </div>
+
+                <div class="case-tools mb-5">
+
+                    <h4>Tools used</h4>
+
+                    <div class="used-tools">
+
+                        <div data-toggle="tooltip" data-placement="top" title="Figma" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <img class="img-fluid" src="./assets/svg/tools/figma.svg" alt="Figma">
+                        </div>
+
+                        <div data-toggle="tooltip" data-placement="top" title="Notion" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <img class="img-fluid" src="./assets/svg/tools/preset.svg" alt="Preset">
+                        </div>
+
+                        <div data-toggle="tooltip" data-placement="top" title="Reforge" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <img class="img-fluid" src="./assets/svg/tools/reforge.svg" alt="Reforge">
+                        </div>
+
+                        <div data-toggle="tooltip" data-placement="top" title="Notion" class="tool card card-bordered card-hover-shadow transition-3d-hover">
+                            <img class="img-fluid" src="./assets/svg/tools/notion.svg" alt="Notion">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="platform">
+                    <h4>Platform</h4>
+
+                    <div class="work-date d-flex justify-contents-center mt-2 mb-2 opacity-100">
+                        <img class="img-fluid" src="./assets/svg/tools/desktop.svg" alt="App">
+                        <span class="date ml-2 opacity-100">Desktop</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+        <!-- End Context Section -->
+
+
+
+        <div class="full-img-content">
+            <div class="container-full-width portfolio-img-container d-flex justify-content-center align-items-center">
+
+                <div class="gif-container overflow-mobile col-lg-8 col-sm-12 d-flex justify-content-center m-auto align-content-center overflow-mobile">
+                    <img class="gif mh-sm-350 img-fluid scrollable-img" src="./assets/gif/factorial/card-preview.gif" alt="Workflow for the Expenses Wallet In-App Landing">
+                    <div class="empty-col-sm"></div>
+                </div>
+
+                <div class="scroll-indicator show-sm"><span class="wave">👆🏼</span></div>
+
+            </div>
+
+            <div class="image-description">
+                <p>Preview of the finished solution</p>
+            </div>
+        </div>
+
+
+
+
+        <!-- In-depth Section -->
+
+        <div class="container">
+
+            <div class="section text col-lg-6 col-sm-12 m-auto aos-init aos-animate" data-aos="fade-up">
+
+                <h2 class="mb-5">In-depth Review</h2>
+
+
+                <!-- Hypotheses -->
+
+
+
+                <h3>Generating Hypotheses</h3>
+
+                <p>We had release the solution of Factorial Cards in April 2022. Since that moment, <strong>5 months</strong> had passed and we barely saw conversion. Up to that moment, we had a total of <strong>76 cards</strong> created, from <strong>119 accounts</strong>.</p>
+                <p>To have a rough idea about where the problem could be deriving from before we incurred in any development costs, we started to <strong>formulate hypotheses</strong>, among which we concluded:</p>
+                <ul>
+                    <li> We're not providing a clear <strong>value proposition</strong>.</li>
+                    <li> We're not offering <strong>support</strong> through the process.</li>
+                    <li> We're not hightlighting the <strong>key benefits</strong>:</li>
+                    <ul>
+                        <li> Which are the benefits of creating an account.</li>
+                        <li> Which are the benefits of creating a card.</li>
+                    </ul>
+                    <li> Customers are missing <strong>instructive</strong> information:</li>
+                    <ul>
+                        <li> How the account works.</li>
+                        <li> How Factorial Cards work.</li>
+                    </ul>
+                    <li> We're not generating <strong>engagement</strong> through design.</li>
+
+                </ul>
+
+            </div>
+
+            <div class="section text col-lg-6 col-sm-12 m-auto aos-init aos-animate" data-aos="fade-up">
+
+                <h4>Funnel Exploration</h4>
+
+                <p>We consulted the funnel to calculate the number of accounts who were dropping in the process and made some discoveries:</p>
+                <ul>
+                    <li> Some accounts visited the page but did not start the process.</li>
+                    <li> Some other accounts visited the page, started the process but dropped.</li>
+                </ul>
+
+            </div>
+
+        </div>
+        </div>
+
+        <!-- Gallery -->
+
+        <div class="full-img-content" style="margin-top: 5rem;">
+            <div class="container-full-width portfolio-img-container d-flex justify-content-center align-items-center">
+
+                <div class="overflow-mobile col-lg-10 col-sm-12 d-grid-lg-2 d-grid-sm-1 scroll justify-content-center m-auto align-content-center overflow-mobile">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/old-design.png" alt="User Survey 1">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/funnel.png" alt="User Survey 2">
+                    <div class="empty-col-sm"></div>
+
+                </div>
+
+                <div class="scroll-indicator show-sm"><span class="wave">👆🏼</span></div>
+
+            </div>
+
+            <div class="image-description">
+                <p>Generation of Hypotheses</p>
+            </div>
+        </div>
+
+        <!-- End Gallery -->
+
+
+        <!-- End Hypotheses Section -->
+
+
+
+        <!-- Research -->
+
+        <div class="container">
+
+            <div class="section text col-lg-6 col-sm-12 m-auto aos-init aos-animate" data-aos="fade-up">
+
+                <h3>Qualitative research</h3>
+
+                <p>Once we had formulated the hypotheses, we jumped into intervewing a small group of <strong>10 customers</strong> that were using Factorial but had dropped when creating the Expenses Wallet account.</p>
+                <p>The reason I chose <strong>interviews</strong> was to approach better the feedback obtained, and revolved around a script that sticked to a structure similar to the following, with open questions to <strong>avoid biased answers:</strong></p>
+                <ul>
+
+                    <li><strong>Rapport and build</strong></li>
+                    <ul>
+                        <li> We've seen you recently started creating an Expenses Wallet account.</li>
+                        <li> Could you describe the process?</li>
+                    </ul>
+                    <li><strong>Peak</strong></li>
+                    <ul>
+                        <li> Did you find any obstacles?</li>
+                        <li> Was there any information you were missing?</li>
+                    </ul>
+                    <li><strong>Open feedback</strong></li>
+                    <ul>
+                        <li> Were you to take on the process again, what would you change?</li>
+                        <li> From 1 to 5, how would you rate the overall experience being 1 too bad and 5 excelent?</li>
+                    </ul>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <!-- End Qualitative research -->
+
+
+        <!-- Debriefing -->
+
+        <div class="container">
+
+            <div class="section text col-lg-6 col-sm-12 m-auto aos-init aos-animate" data-aos="fade-up">
+
+                <h3>Defriefing</h3>
+
+                <p>After conducting the interviews we saw that customers answered in similar ways and had some common painpoints, which matched with our initial hypotheses. Among these, we found that nearly every customer had experienced the following pains:</p>
+                <ul>
+                    <li> <strong>Cost:</strong> They wanted to know how much the cost was.</li>
+                    <li> <strong>Transaction fees:</strong> They wanted to know implicit fees when using the cards.</li>
+                    <li> <strong>Key benefits:</strong> They wondered what was the ultimate goal for them.</li>
+                    <li> <strong>Effort:</strong> They wanted to know how long it took to create an account.</li>
+                    <li> <strong>How to:</strong> They wanted to know what the process consisted on.</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <!-- End Debriefing research -->
+
+        <!-- Benchmarking -->
+
+        <div class="container">
+
+            <div class="section text col-lg-6 col-sm-12 m-auto aos-init aos-animate" data-aos="fade-up">
+
+                <h3>Benchmarking & UX Audit on Competitors</h3>
+
+                <p>After gathering the common painpoints and defining the key learnings, I conducted a <strong>Benchmark</strong> and a <strong>UX Audit</strong> on the closest competitors, according to the business model. The aim of this was to validate
+                    what information competitors were chosing to display, why and whether or not this information had any direct relation with the <strong>validated hypotheses</strong>.</p>
+
+            </div>
+        </div>
+
+        <!-- Gallery -->
+
+        <div class="full-img-content" style="margin-top: 5rem;">
+            <div class="container-full-width portfolio-img-container d-flex justify-content-center align-items-center">
+
+                <div class="overflow-mobile col-lg-10 col-sm-12 d-grid-lg-2 d-grid-sm-1 scroll justify-content-center m-auto align-content-center overflow-mobile">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/benchmarking.png" alt="Benchmarking">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/ux-audit.png" alt="UX Audit">
+                    <div class="empty-col-sm"></div>
+
+                </div>
+
+                <div class="scroll-indicator show-sm"><span class="wave">👆🏼</span></div>
+
+            </div>
+
+            <div class="image-description">
+                <p>Benchmarking and UX Audit</p>
+            </div>
+        </div>
+
+        <!-- End Gallery -->
+
+
+        <!-- End Benchmarking research -->
+
+
+        <!-- Product Requirements Definition -->
+
+        <div class="container">
+
+            <div class="section text col-lg-6 col-sm-12 m-auto aos-init aos-animate" data-aos="fade-up">
+
+                <h3>Product Requirements Definition</h3>
+
+                <p>Once I had gone through the phases of Hypotheses generation, Research, Hypotheses Validation, and Benchmarking, I compiled all this information into the Product Requirements Definition, to communicate the Feature Opportunity with the stakeholders
+                    and cross-functional teams to work with: Product Marketing and Engineering. </p>
+                <p>At this point, together with Product Marketing, we decided to take into account the user physchology ELMR framework, to understand better how customers were making decissions in the funnel and what were their core desires. </p>
+
+            </div>
+
+            <div class="section text col-lg-6 col-sm-12 m-auto aos-init aos-animate" data-aos="fade-up">
+
+                <h4>ELMR Framework</h4>
+
+                <p>Through the <strong>ELMR Framework</strong> we aimed for answering questions like <i>“How do we improve retention, LTV, virality, or some other variable in our growth model?</i> </p>
+                <p>Consulting this information in our <strong>Reforge</strong> program, we understood that users start the decission-making process with emotion, not logic. It's this emotional fuel that drives users towards that action. They don’t start
+                    with logic. They end up using logic to justify and rationalize emotions, but logic does not lead the way. Once again, emotion leads toward the final action</p>
+                <p>Once the user gets over the decision hill, they will seek a reward because they look to confirm that they made the right decision. A reward increases the chance that they will take that action or decision again on a repeated basis.</p>
+                <p>This helped me understand better how to carry on with the Product Design phase and how to modularize the elements:</p>
+
+                <ul>
+                    <li> In the first place, we displayed a section with the value proposition and a trigger to <strong>generate engagement</strong> <i>("Create your Expenses Wallet for free")</i>.</li>
+                    <li> In the second place, we displayed a section to communicate the <strong>key benefits</strong> of using Factorial Cards <i>("Gain time, Set budgets, Pay Safely…")</i>.</li>
+                    <li> Finally, we decided to display a section with a brief <strong>how-to section</strong> about what the process looked like in 3 steps.</li>
+                </ul>
+
+                </p>
+            </div>
+
+            <div class="section text col-lg-6 col-sm-12 m-auto aos-init aos-animate" data-aos="fade-up">
+
+                <h4>User Stories & Acceptance Criteria</h4>
+
+                <p>There were several case scenarios that needed to be taken into account in this initiative. In order to assure quality, I wrote user stories & acceptance criteria following the <strong>Gherking methodology</strong>:</p>
+                <pre>   
+    <i>Given</i>  __________
+    <i>When</i>   __________
+    <i>And</i>    __________
+    <i>Then</i>   __________
+                </pre>
+                <p>This served to ensure that all case scenarios where covered when designing the final solution. In particular, there were <strong>two main case scenarios:</strong></p>
+                <ul>
+                    <li>Customers who did not have an account created, who were based in Spain.</li>
+                    <li>Customers who did not have an account created, who were based somewhere other than Spain.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Gallery -->
+
+        <div class="full-img-content" style="margin-top: 5rem;">
+            <div class="container-full-width portfolio-img-container d-flex justify-content-center align-items-center">
+
+                <div class="overflow-mobile col-lg-10 col-sm-12 d-grid-lg-2 d-grid-sm-1 scroll justify-content-center m-auto align-content-center overflow-mobile">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/elmr-framework.png" alt="ELMR Framework">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/product-requirements.png" alt="PRD">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/user-stories.png" alt="User Stories">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/case-scenarios.png" alt="Case scenarios">
+                    <div class="empty-col-sm"></div>
+
+                </div>
+
+                <div class="scroll-indicator show-sm"><span class="wave">👆🏼</span></div>
+
+            </div>
+
+            <div class="image-description">
+                <p>ELMR Framework, PRD & User Stories</p>
+            </div>
+        </div>
+        <!-- End Gallery -->
+
+
+        <!-- End Product Requirements Definition research -->
+
+
+        <!-- Product Design -->
+
+        <div class="container">
+
+            <div class="section text col-lg-6 col-sm-12 m-auto aos-init aos-animate" data-aos="fade-up">
+
+                <h3>Product Design</h3>
+
+                <p>Once I had written user stories and spotted all possible case scenarios of the feature, I proceeded to design the landing page, applying the elements in the <strong>Design System</strong>.</p>
+                <p>However, there was some <strong>bandwith to define new elements</strong> that did not exist, such as the graphics for the <i>Physical card</i> and <i>Virtual card</i> (up to that moment, there was no graphical representation of Factorial
+                    Cards inside the product).</p>
+                <p>In this phase, I also explored the <strong>interactive animations</strong>, using the library <strong>Framer Motion</strong>, together with the Engineering team. After defining the behaviour of these animations, I jumped and helped adjusting
+                    the parameteres of the animation for a optimal interaction. In this step, I got a <strong>Gitpod workspace</strong> enabled, created a branch and commited the changes after all parameters had been polished.</p>
+
+
+            </div>
+        </div>
+
+        <!-- Gallery -->
+
+        <div class="full-img-content" style="margin-top: 5rem;">
+            <div class="container-full-width portfolio-img-container d-flex justify-content-center align-items-center">
+
+                <div class="gif-container img-container overflow-mobile col-lg-10 col-sm-12 d-grid-lg-2 d-grid-sm-1 scroll justify-content-center m-auto align-content-center overflow-mobile">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/interaction-cards.gif" alt="Interaction with Cards">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/how-to.png" alt="How to">
+                    <img style="margin: 1rem;" class="gif mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/virtual-card.png" alt="Virtual card">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/physical-card.png" alt="Physical card">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/section-card.png" alt="Section card">
+                    <img style="margin: 1rem;" class="gif mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/card-notification.gif" alt="Card notification">
+
+                    <div class="empty-col-sm"></div>
+
+                </div>
+
+                <div class="scroll-indicator show-sm"><span class="wave">👆🏼</span></div>
+
+            </div>
+
+            <div class="image-description">
+                <p>Expenses Wallet - Product Design</p>
+            </div>
+        </div>
+
+        <!-- End Gallery -->
+
+
+        <!-- End Product Design -->
+
+
+
+        <!-- Success Metrics -->
+
+        <div class="container">
+
+            <div class="section text col-lg-6 col-sm-12 m-auto aos-init aos-animate" data-aos="fade-up">
+
+                <h3>Success Metrics</h3>
+
+                <p>Within the first 5 months after Factorial Cards were released, there were <strong>119 accounts</strong> and only <strong>76 cards</strong>. After the implementation of the new design, we generated </strong>119 new accounts</strong>, and
+                    <strong>x4.5 times</strong> new cards created: <strong>343 cards</strong>.</p>
+
+                </p>
+
+
+            </div>
+        </div>
+
+        <!-- Gallery -->
+
+        <div class="full-img-content" style="margin-top: 5rem;">
+            <div class="container-full-width portfolio-img-container d-flex justify-content-center align-items-center">
+
+                <div class="gif-container img-container overflow-mobile col-lg-10 col-sm-12 d-grid-lg-2 d-grid-sm-1 scroll justify-content-center m-auto align-content-center overflow-mobile">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/old-design-data.png" alt="Old Design Data">
+                    <img style="margin: 1rem;" class="mh-sm-350 img-fluid scrollable-img transition-3d-hover" src="./assets/img/works/factorial/expenses-wallet/new-design-data.png" alt="New Design Data">
+                    <div class="empty-col-sm"></div>
+
+                </div>
+
+                <div class="scroll-indicator show-sm"><span class="wave">👆🏼</span></div>
+
+            </div>
+
+            <div class="image-description">
+                <p>Success Metrics - Results after 5 months with the new design</p>
+            </div>
+        </div>
+
+        <!-- End Gallery -->
+
+
+        <!-- End Success Metrics -->
+
+
+
+
+
+
+        <div id="contactSection"></div>
+
+        <!-- ========== FOOTER ========== -->
+        <footer class="bg-dark ">
+            <div class="container space-1" style="padding-top: 70px !important;">
+                <div class="row-contact-footer row mt-5 ">
+                    <div class="col-lg-6 w-lg-50 text-center ">
+                        <!-- Title -->
+                        <div class="w-md-75 text-white text-center mx-md-auto mb-5 mb-md-5 ">
+                            <h2 class="h1 text-white ">Let's work together</h2>
+                            <p class="mt-3 ">Please, feel free to contact me.
+                                <br/>I'll be very glad to hearing from you.</p>
+                            <div class="w-md-60 text-white text-center mx-md-auto mt-5 mb-5 mb-md-5 ">
+
+                                <!-- Interactive contact -->
+                                <div class="profile-signature profile-signature--contact mb-7 ">
+                                    <div class="profile-signature__link justify-content-center" href="mailto:alberolarafa0@gmail.com ">
+                                        <div class="profile-img ">
+                                            <div class="img shadow-soft ">
+                                                <img class="avatar " src="./assets/img/myself/avatar-rafa.png " alt="Rafael Alberola - UX/UI Product Designer ">
+                                            </div>
+                                            <div class="estimate-indicator--circle indicator--green-gradient "></div>
+                                        </div>
+                                        <div class="name ">
+                                            <p class="mb-0 small text-white "><strong>Reply time:</strong> within 1 hour</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Interactive Contact -->
+                                <div class="container contact-btn">
+                                    <a style="color: #141414" class="btn bg-white btn-primary btn-block transition-3d-hover" href="mailto:alberolarafa0@gmail.com">Let's Talk Now</a>
+                                </div>
+                            </div>
+
+                            <div style="margin-top: 40px">
+                                <ul class="list-inline mb-0">
+                                    <!-- Social Networks -->
+                                    <li class="list-inline-item">
+                                        <a class="btn btn-xs btn-icon btn-soft-light" href="https://linkedin.com/in/rafaelalberola" target="_blank">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="btn btn-xs btn-icon btn-soft-light" href="https://github.com/rafaelalberola" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </li>
+                                    <!-- End Social Networks -->
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <!-- End Title -->
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            <div class="bg-darker ">
+                <div class="absolute-footer container pt-4 pb-4 ">
+
+
+                    <!-- Copyright -->
+                    <div class="row align-items-md-center ">
+                        <div class="col-md-12 text-center ">
+                            <p class="small text-white-70 mb-0 ">&copy; 2022 Designed & Developed by Rafael Alberola</p>
+                        </div>
+
+                    </div>
+                    <!-- End Copyright -->
+                </div>
+            </div>
+        </footer>
+        <!-- ========== END FOOTER ========== -->
+
+
+
+        <!-- Go to Top -->
+        <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
+       "offsetTop": 700,
+       "position": {
+         "init": {
+           "right": 15
+         },
+         "show": {
+           "bottom": 15
+         },
+         "hide": {
+           "bottom": -15
+         }
+       }
+     }'>
+            <i class="fas fa-angle-up"></i>
+        </a>
+        <!-- End Go to Top -->
+
+        <!-- JS Global Compulsory  -->
+        <script src="./assets/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="./assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+        <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- JS Implementing Plugins -->
+        <script src="./assets/vendor/hs-header/dist/hs-header.min.js"></script>
+        <script src="./assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+        <script src="./assets/vendor/hs-unfold/dist/hs-unfold.min.js"></script>
+        <script src="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+        <script src="./assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+        <script src="./assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+        <script src="./assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="./assets/vendor/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+
+        <!-- JS Front -->
+        <script src="./assets/js/theme.min.js"></script>
+
+        <!-- JS Plugins Init. -->
+        <script>
+            $(document).on('ready', function() {
+                // INITIALIZATION OF HEADER
+                // =======================================================
+                var header = new HSHeader($('#header')).init();
+
+
+                // INITIALIZATION OF MEGA MENU
+                // =======================================================
+                var megaMenu = new HSMegaMenu($('.js-mega-menu'), {
+                    breakpoint: 'md',
+                    desktop: {
+                        position: 'left'
+                    }
+                }).init();
+
+
+                // INITIALIZATION OF UNFOLD
+                // =======================================================
+                var unfold = new HSUnfold('.js-hs-unfold-invoker').init();
+
+
+                // INITIALIZATION OF SHOW ANIMATIONS
+                // =======================================================
+                $('.js-animation-link').each(function() {
+                    var showAnimation = new HSShowAnimation($(this)).init();
+                });
+
+
+                // INITIALIZATION OF FORM VALIDATION
+                // =======================================================
+                $('.js-validate').each(function() {
+                    $.HSCore.components.HSValidation.init($(this), {
+                        rules: {
+                            confirmPassword: {
+                                equalTo: '#signupPassword'
+                            }
+                        }
+                    });
+                });
+
+
+                // INITIALIZATION OF FANCYBOX
+                // =======================================================
+                $('.js-fancybox').each(function() {
+                    var fancybox = $.HSCore.components.HSFancyBox.init($(this));
+                });
+
+
+                // INITIALIZATION OF GO TO
+                // =======================================================
+                $('.js-go-to').each(function() {
+                    var goTo = new HSGoTo($(this)).init();
+                });
+            });
+        </script>
+
+        <!-- IE Support -->
+        <script>
+            if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="./assets/vendor/babel-polyfill/dist/polyfill.js"><\/script>');
+        </script>
+
+        <!-- Automatic Modal -->
+        <script type="text/javascript">
+            $('#myModal').modal('show');
+            $('#closemodal').click(function() {
+                $('#myModal').modal('hide');
+            });
+        </script>
+
+</body>
+
+</html>
