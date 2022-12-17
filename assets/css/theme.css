@@ -17116,7 +17116,7 @@ a.badge-soft-indigo:focus {
 .btn-white {
     font-weight: 400;
     background-color: #fff;
-    border-color: #e7eaf3;
+    border-color: #e3e3e3;
 }
 
 .btn-white.dropdown-toggle::after {
